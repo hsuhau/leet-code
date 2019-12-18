@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DefangIPAddr",
+            "request": "launch",
+            "mainClass": "com.hsuhau.easy.DefangIPAddr",
+            "projectName": "LeetCode_15fbf075"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ListNode",
+            "request": "launch",
+            "mainClass": "com.hsuhau.common.ListNode",
+            "projectName": "LeetCode_8c001bb4"
+        }
+    ]
+}
