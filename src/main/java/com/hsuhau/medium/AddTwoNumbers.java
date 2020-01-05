@@ -92,8 +92,9 @@ class AddTwoNumbers {
             int y = (q != null) ? q.val : 0;
             int sum = carry + x + y;
             carry = sum / 10;
-            curr.next = new ListNode(sum % 10);
-            curr = curr.next;
+//            curr.val = 100; // 为什么dunmmyHead随着curr变化呢
+            curr.next = new ListNode(sum % 10); //为什么dunmmyHead随着curr.next的初始化变化呢
+            curr = curr.next; // 为什么dunmmyHead不随着curr变化呢
             if (p != null) {
                 p = p.next;
             }
