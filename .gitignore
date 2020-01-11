@@ -1,25 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
-<<<<<<< HEAD
-### VisualStudioCode template
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
-
-=======
->>>>>>> 8ff391eba38f04a1f400e564bba7d4c86b4e53b8
 ### Java template
 # Compiled class file
 *.class
 
-<<<<<<< HEAD
-=======
-# Iml file
-*.iml
-
->>>>>>> 8ff391eba38f04a1f400e564bba7d4c86b4e53b8
 # Log file
 *.log
 
@@ -41,7 +24,19 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-<<<<<<< HEAD
+### Maven template
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
@@ -114,8 +109,37 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
-=======
-/.idea/
-/.vscode/
-/target/
->>>>>>> 8ff391eba38f04a1f400e564bba7d4c86b4e53b8
+### VisualStudioCode template
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+.idea/ZeppelinRemoteNotebooks/
+common/src/
+easy/src/main/java/com/hsuhau/controller/
+easy/src/main/java/com/hsuhau/dao/
+easy/src/main/java/com/hsuhau/model/
+easy/src/main/java/com/hsuhau/service/impl/
+easy/src/main/resources/
+easy/src/test/
+hard/src/main/java/com/hsuhau/controller/
+hard/src/main/java/com/hsuhau/dao/
+hard/src/main/java/com/hsuhau/model/
+hard/src/main/java/com/hsuhau/service/impl/
+hard/src/main/resources/
+hard/src/test/
+main/src/test/java/
+main/target/
+medium/src/main/java/com/hsuhau/controller/
+medium/src/main/java/com/hsuhau/dao/
+medium/src/main/java/com/hsuhau/model/
+medium/src/main/java/com/hsuhau/service/impl/
+medium/src/main/resources/
+medium/src/test/
+target/classes/com/
+target/generated-sources/
+target/generated-test-sources/
+target/test-classes/com/

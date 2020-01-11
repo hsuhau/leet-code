@@ -6,16 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LeetCode" />
+        <module name="leetcode-main" />
+        <module name="leetcode-hard" />
+        <module name="leetcode-common" />
+        <module name="leetcode-easy" />
+        <module name="leetcode-medium" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11">
-      <module name="LeetCode" target="11" />
+    <bytecodeTargetLevel target="13">
+      <module name="LeetCode" target="13" />
+      <module name="leetcode-common" target="13" />
+      <module name="leetcode-easy" target="13" />
+      <module name="leetcode-hard" target="13" />
+      <module name="leetcode-main" target="13" />
+      <module name="leetcode-medium" target="13" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="LeetCode" options="--add-exports=jdk.internal.vm.compiler/jdk.internal.vm.compiler.word=ALL-UNNAMED" />
+      <module name="LeetCode" options="" />
+      <module name="leetcode-common" options="-parameters" />
+      <module name="leetcode-easy" options="-parameters" />
+      <module name="leetcode-hard" options="-parameters" />
+      <module name="leetcode-main" options="-parameters" />
+      <module name="leetcode-medium" options="-parameters" />
     </option>
   </component>
 </project>
