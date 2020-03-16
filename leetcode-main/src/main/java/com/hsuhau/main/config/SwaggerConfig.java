@@ -30,7 +30,10 @@ public class SwaggerConfig {
                 .useDefaultResponseMessages(true)
                 .forCodeGeneration(false)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.hsuhau.controller"))
+                .apis(RequestHandlerSelectors.basePackage(
+                        "com.hsuhau.common.controller, com.hsuhau.easy.controller, com.hsuhau.medium.controller, " +
+                                "com.hsuhau.hard.controller, com.hsuhau.main.controller"
+                ))
                 .paths(PathSelectors.any())
                 .build();
     }

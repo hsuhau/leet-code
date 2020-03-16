@@ -1,4 +1,4 @@
-package com.hsuhau.common.service;
+package com.hsuhau.medium.service;
 
 import java.util.List;
 

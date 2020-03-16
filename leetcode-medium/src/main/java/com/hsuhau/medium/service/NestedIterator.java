@@ -1,6 +1,5 @@
 package com.hsuhau.medium.service;
 
-import com.hsuhau.common.service.NestedInteger;
 import org.springframework.stereotype.Service;
 
 import java.util.Iterator;

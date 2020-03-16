@@ -2,15 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="leetcode-medium" />
         <module name="leetcode-main" />
         <module name="leetcode-hard" />
-        <module name="leetcode-common" />
         <module name="leetcode-easy" />
-        <module name="leetcode-medium" />
+        <module name="leetcode-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="13">
@@ -19,7 +20,7 @@
       <module name="leetcode-easy" target="13" />
       <module name="leetcode-hard" target="13" />
       <module name="leetcode-main" target="13" />
-      <module name="leetcode-medium" target="13" />
+      <module name="leetcode-medium" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -1,0 +1,8 @@
+debug: true
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: macarena
+    url: jdbc:mysql://localhost:3306/premission?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true
