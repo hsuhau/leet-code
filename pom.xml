@@ -28,7 +28,7 @@
         <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
         <docker.host>tcp://127.0.0.1:2375</docker.host>
         <docker.maven.plugin.version>1.1.0</docker.maven.plugin.version>
-<!--        <junit.jupiter.version>5.6.0-RC1</junit.jupiter.version>-->
+        <junit.jupiter.version>5.6.0-RC1</junit.jupiter.version>
         <swagger2.version>2.9.2</swagger2.version>
         <mybatis.version>3.5.3</mybatis.version>
         <mybatis-generator.version>1.4.0</mybatis-generator.version>
@@ -77,12 +77,12 @@
             <version>1.7.29</version>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.junit.jupiter</groupId>-->
-<!--            <artifactId>junit-jupiter</artifactId>-->
-<!--            <version>${junit.jupiter.version}</version>-->
-<!--            <scope>test</scope>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
