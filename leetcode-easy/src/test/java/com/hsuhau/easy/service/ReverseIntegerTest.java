@@ -8,7 +8,7 @@ public class ReverseIntegerTest {
     @Test
     public void reverse() {
         ReverseInteger reverseInteger = new ReverseInteger();
-        int result = reverseInteger.reverse(1534236469);
-        Assert.assertEquals(1056389759, result);
+        int result = reverseInteger.reverse(-2147483648);
+        Assert.assertEquals(0, result);
     }
 }
