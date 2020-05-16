@@ -27,9 +27,15 @@ public class LongestCommonPrefix {
         if (strs.length == 0) {
             return "";
         }
+        String min = strs[0];
+        for (int i = 0; i < strs.length; i++) {
+            if (strs[i].length() < min.length()) {
+                min = strs[i];
+            }
+        }
         StringBuilder builder = new StringBuilder(strs[0]);
 
-        for (int i = 1; i < strs.length; i++) {
+        for (int i = 0; i < strs.length; i++) {
             for (int j = 0; j < builder.length(); j++) {
                 String str = strs[i];
                 char c = str.length() > j ? str.charAt(j): 'A';
