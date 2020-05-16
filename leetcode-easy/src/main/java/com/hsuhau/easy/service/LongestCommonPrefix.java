@@ -24,30 +24,26 @@ import java.util.List;
  */
 public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
-        if (strs.length == 0) {
+        if (strs == null || strs.length == 0) {
             return "";
         }
         String min = strs[0];
-        for (int i = 0; i < strs.length; i++) {
+        int len = strs.length;
+        for (int i = 0; i < len; i++) {
             if (strs[i].length() < min.length()) {
                 min = strs[i];
             }
         }
-        StringBuilder builder = new StringBuilder(strs[0]);
-
-        for (int i = 0; i < strs.length; i++) {
-            for (int j = 0; j < builder.length(); j++) {
+        for (int i = 0; i < len; i++) {
+            for (int j = 0; j < min.length(); j++) {
                 String str = strs[i];
-                char c = str.length() > j ? str.charAt(j): 'A';
-                char a = builder.toString().toCharArray()[j];
-                int len = builder.length();
+                char c = str.length() > j ? str.charAt(j) : 'A';
+                char a = min.toCharArray()[j];
                 if (a != c) {
-                    for (int k = j; k < len; k++) {
-                        builder.deleteCharAt(j);
-                    }
+                    min = min.substring(0, j);
                 }
             }
         }
-        return builder.toString();
+        return min;
     }
 }
