@@ -65,14 +65,14 @@ public class CountSquares {
                     for (int l = 0; l <= k; l++) {
                         int x = matrix[i + l][j + k];
                         int y = matrix[i + k][j + l];
-                       //System.out.println("i = " + i + ", j = " + j +", k = " + k + ", l = " + l + ", x = " + x + ", y = " + y);
+                        //System.out.println("i = " + i + ", j = " + j +", k = " + k + ", l = " + l + ", x = " + x + ", y = " + y);
                         if (x == 0 || y == 0) {
                             countK = false;
                             break;
                         }
                     }
                     if (countK) {
-                       // System.out.println("----------------------i  = " + i + ", j = " + j + ", k = " + k + "-------------------------");
+                        // System.out.println("----------------------i  = " + i + ", j = " + j + ", k = " + k + "-------------------------");
                         count++;
                     } else {
                         break;

@@ -7,11 +7,11 @@ import java.util.List;
 
 /**
  * 65. 有效数字
- *
+ * <p>
  * 验证给定的字符串是否可以解释为十进制数字。
- *
+ * <p>
  * 例如:
- *
+ * <p>
  * "0" => true
  * " 0.1 " => true
  * "abc" => false
@@ -26,15 +26,15 @@ import java.util.List;
  * " --6 " => false
  * "-+3" => false
  * "95a54e53" => false
- *
+ * <p>
  * 说明: 我们有意将问题陈述地比较模糊。在实现代码之前，你应当事先思考所有可能的情况。这里给出一份可能存在于有效十进制数字中的字符列表：
- *
+ * <p>
  * 数字 0-9
  * 指数 - "e"
  * 正/负号 - "+"/"-"
  * 小数点 - "."
  * 当然，在输入中，这些字符的上下文也很重要。
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/valid-number
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -46,7 +46,7 @@ public class IsNumber {
         // todo
 
         String first = s.substring(0, 1);
-        String last = s.substring(s.length() -1);
+        String last = s.substring(s.length() - 1);
         if ("+".equals(last) || ("-").equals(last) || (".").equals(last) || ".".equals(first)) {
             return false;
         }
@@ -57,9 +57,9 @@ public class IsNumber {
                 return false;
             }
             if (((list.get(i).equals("-") || list.get(i).equals("+") || list.get(i).equals(".")) &&
-                    (list.get(i + 1).equals("-") || list.get(i + 1).equals("+") || list.get(i+1).equals(".")))
+                    (list.get(i + 1).equals("-") || list.get(i + 1).equals("+") || list.get(i + 1).equals(".")))
                     || (i > 0 && (list.get(i).equals("-") || list.get(i).equals("+") || list.get(i).equals(".")) &&
-                    (list.get(i - 1).equals("-") || list.get(i - 1).equals("+") || list.get(i-1).equals(".")))
+                    (list.get(i - 1).equals("-") || list.get(i - 1).equals("+") || list.get(i - 1).equals(".")))
             ) {
                 return false;
             }

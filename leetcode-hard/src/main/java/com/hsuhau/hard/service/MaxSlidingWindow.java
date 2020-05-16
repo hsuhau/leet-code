@@ -35,6 +35,9 @@ import java.util.ArrayDeque;
 
 @Service
 public class MaxSlidingWindow {
+    ArrayDeque<Integer> deque = new ArrayDeque<>();
+    int[] nums;
+
     /**
      * 暴力解法
      * <p>
@@ -60,9 +63,6 @@ public class MaxSlidingWindow {
         }
         return output;
     }
-
-    ArrayDeque<Integer> deque = new ArrayDeque<>();
-    int[] nums;
 
     /**
      * 方法二：双向队列

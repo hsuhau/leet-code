@@ -7,21 +7,21 @@ import java.util.Stack;
 
 /**
  * 938. 二叉搜索树的范围和
- *
+ * <p>
  * 相关标签：树，递归
- *
+ * <p>
  * 给定二叉搜索树的根结点 root，返回 L 和 R（含）之间的所有结点的值的和。
- *
+ * <p>
  * 二叉搜索树保证具有唯一的值。
- *
+ * <p>
  * 示例 1：
  * 输入：root = [10,5,15,3,7,null,18], L = 7, R = 15
  * 输出：32
- *
+ * <p>
  * 示例 2：
  * 输入：root = [10,5,15,3,7,13,18,1,null,6], L = 6, R = 10
  * 输出：23
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/range-sum-of-bst
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -31,6 +31,7 @@ import java.util.Stack;
 public class RangeSumBST {
     /**
      * 递归实现深度优先搜索
+     *
      * @param root
      * @param L
      * @param R
@@ -51,7 +52,7 @@ public class RangeSumBST {
 
     /**
      * 迭代实现深度优先搜索
-     *
+     * <p>
      * 复杂度分析
      * 时间复杂度：O(N)O(N)，其中 NN 是树中的节点数目。
      * 空间复杂度：O(H)O(H)，其中 HH 是树的高度
@@ -69,7 +70,7 @@ public class RangeSumBST {
             TreeNode node = stack.pop();
             if (node != null) {
                 if (node.val >= L && node.val <= R) {
-                    result +=node.val;
+                    result += node.val;
                 }
                 if (node.val < R) {
                     stack.push(node.right);

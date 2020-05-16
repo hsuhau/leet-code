@@ -6,13 +6,11 @@ import java.util.List;
 
 public interface UserRepository {
     /**
-     *
      * @return
      */
     List<User> findAll();
 
     /**
-     *
      * @param id
      * @return
      */

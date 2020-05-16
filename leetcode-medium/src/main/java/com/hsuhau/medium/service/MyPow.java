@@ -2,8 +2,6 @@ package com.hsuhau.medium.service;
 
 /**
  * 50. Pow(x, n)
- *
- *
  */
 public class MyPow {
     public static double myPow(double x, int n) {

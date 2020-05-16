@@ -22,7 +22,7 @@ public class IsRectangleCover {
             int[] rightUp = new int[2];
             rightUp[0] = rectangle[2];
             rightUp[1] = rectangle[3];
-            
+
             int[] rightDown = new int[2];
             rightDown[0] = rectangle[2];
             rightDown[1] = rectangle[1];
