@@ -143,3 +143,5 @@ target/classes/com/
 target/generated-sources/
 target/generated-test-sources/
 target/test-classes/com/
+.idea/sonarlint/*
+*,iml
