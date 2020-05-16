@@ -34,7 +34,8 @@ import java.util.ArrayDeque;
  */
 
 @Service
-public class MaxSlidingWindow {
+// todo 抄的官方题解
+public class SlidingWindowMaximum {
     ArrayDeque<Integer> deque = new ArrayDeque<>();
     int[] nums;
 
