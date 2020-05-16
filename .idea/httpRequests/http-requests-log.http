@@ -1,3 +1,19 @@
+GET http://localhost/test
+
+###
+
+GET http://localhost/test
+
+###
+
+GET http://localhost/test
+
+###
+
+GET http://localhost/test
+
+###
+
 GET http://localhost:8080/resources
 Accept: */*
 Cache-Control: no-cache
