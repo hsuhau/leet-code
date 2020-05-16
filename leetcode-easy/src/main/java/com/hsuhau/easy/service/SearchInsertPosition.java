@@ -46,5 +46,28 @@ public class SearchInsertPosition {
         }
         return nums.length;
     }
+
+    /**
+     * 分治
+     * todo 注意
+     *
+     * @param nums
+     * @param target
+     * @return
+     */
+    public int searchInsert0(int[] nums, int target) {
+        int left = 0, right = nums.length - 1;
+        while (left <= right) {
+            int mid = (left + right);
+            if (nums[mid] == target) {
+                return mid;
+            } else if (nums[mid] < target) {
+                left = mid+1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return left;
+    }
 }
 // leetcode submit region end(Prohibit modification and deletion)
