@@ -34,7 +34,7 @@ import java.util.List;
  */
 
 @Service
-public class LastSubstring {
+public class LastSubstringInLexicographicalOrder {
     // todo
 
     public String lastSubstring(String s) {
