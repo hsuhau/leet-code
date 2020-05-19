@@ -39,19 +39,20 @@ public class MergeSortedArray {
         int point1 = m - 1;
         int point2 = n - 1;
         int point = m + n - 1;
-        int[] res = new int[m + n];
-        System.arraycopy(nums1, 0, res, 0, m);
         while (point1 >= 0 && point2 >= 0) {
-            if (nums1[point1] >= nums2[point2]) {
-                res[point] = nums1[point1];
-                point1--;
-            } else {
-                res[point] = nums2[point2];
-                point2--;
-            }
-            point--;
+//            if (nums1[point1] >= nums2[point2]) {
+//                nums1[point] = nums1[point1];
+//                point1--;
+//            } else {
+//                nums1[point] = nums2[point2];
+//                point2--;
+//            }
+//            point--;
+            // 神奇
+            nums1[point--] = nums1[point1] >= nums2[point2] ? nums1[point1--] : nums2[point2--];
         }
 
-        System.out.println("nums1 = " + JSONObject.toJSON(nums1));
+        // 参考官方题解，add missing elements from nums2
+        System.arraycopy(nums2, 0, nums1, 0, point2 + 1);
     }
 }
