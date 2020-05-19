@@ -9,7 +9,7 @@ public class MergeSortedArrayTest {
 
     @Test
     public void testMerge() throws Exception {
-        int[] nums1 = new int[]{1, 2, 3};
+        int[] nums1 = new int[]{1, 2, 3, 0, 0, 0};
         int[] nums2 = new int[]{2, 5, 6};
         mergeSortedArray.merge(nums1, 3, nums2, 3);
         System.out.println(JSONObject.toJSON(nums1));
