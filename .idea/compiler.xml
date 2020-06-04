@@ -7,30 +7,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="leetcode-easy" />
-        <module name="leetcode-hard" />
-        <module name="leetcode-main" />
-        <module name="leetcode-medium" />
-        <module name="leetcode-common" />
+        <module name="leet-code-main" />
+        <module name="leet-code-hard" />
+        <module name="leet-code-easy" />
+        <module name="leet-code-common" />
+        <module name="leet-code-medium" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="13">
-      <module name="leet-code" target="13" />
-      <module name="leetcode-common" target="13" />
-      <module name="leetcode-easy" target="13" />
-      <module name="leetcode-hard" target="13" />
-      <module name="leetcode-main" target="13" />
-      <module name="leetcode-medium" target="13" />
+      <module name="leet-code" target="8" />
+      <module name="leet-code-common" target="8" />
+      <module name="leet-code-easy" target="8" />
+      <module name="leet-code-hard" target="8" />
+      <module name="leet-code-main" target="8" />
+      <module name="leet-code-medium" target="13" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="leet-code" options="" />
-      <module name="leetcode-common" options="-parameters" />
-      <module name="leetcode-easy" options="-parameters" />
-      <module name="leetcode-hard" options="-parameters" />
-      <module name="leetcode-main" options="-parameters" />
-      <module name="leetcode-medium" options="-parameters" />
+      <module name="leet-code-common" options="-parameters" />
+      <module name="leet-code-easy" options="-parameters" />
+      <module name="leet-code-hard" options="-parameters" />
+      <module name="leet-code-main" options="-parameters" />
+      <module name="leet-code-medium" options="-parameters" />
     </option>
   </component>
 </project>

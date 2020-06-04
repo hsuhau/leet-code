@@ -5,15 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.hsuhau</groupId>
-    <artifactId>LeetCode</artifactId>
+    <artifactId>leet-code</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>leetcode-medium</module>
-        <module>leetcode-hard</module>
-        <module>leetcode-main</module>
-        <module>leetcode-common</module>
-        <module>leetcode-easy</module>
+        <module>leet-code-medium</module>
+        <module>leet-code-hard</module>
+        <module>leet-code-main</module>
+        <module>leet-code-common</module>
+        <module>leet-code-easy</module>
     </modules>
 
     <parent>
@@ -24,7 +24,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>13</maven.compiler.source>
+        <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
         <docker.host>tcp://192.168.116.134:2375</docker.host>
         <docker.maven.plugin.version>1.1.0</docker.maven.plugin.version>
@@ -66,7 +66,20 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-jetty -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jetty</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -225,7 +238,7 @@
             <version>1.2.60</version>
         </dependency>
 
-    </dependencies>
+   </dependencies>
 
     <build>
         <plugins>
