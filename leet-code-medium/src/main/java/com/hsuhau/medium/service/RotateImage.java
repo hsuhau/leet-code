@@ -1,4 +1,4 @@
-package com.hsuhau.medium.service.impl;
+package com.hsuhau.medium.service;
 
 /**
  * 48. 旋转图像

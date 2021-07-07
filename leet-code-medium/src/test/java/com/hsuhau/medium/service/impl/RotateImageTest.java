@@ -1,6 +1,7 @@
 package com.hsuhau.medium.service.impl;
 
 import com.hsuhau.MainApplication;
+import com.hsuhau.medium.service.RotateImage;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
