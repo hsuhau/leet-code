@@ -2,15 +2,23 @@ package com.hsuhau.easy.service;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
+import static org.junit.Assert.*;
+
+@SpringBootTest
+@RunWith(SpringRunner.class)
 public class ClimbingStairsTest {
-    ClimbingStairs climbingStairs = new ClimbingStairs();
+
+    @Autowired
+    private ClimbingStairs climbingStairs;
 
     @Test
-    public void testClimbStairs() throws Exception {
-        int result = climbingStairs.climbStairs(0);
-        Assert.assertEquals(0, result);
+    public void hammingWeight() {
+        int result = climbingStairs.hammingWeight(3);
+        Assert.assertEquals(3, result);
     }
 }
-
-//Generated with love by TestMe :) Please report issues and submit feature requests at: http://weirddev.com/forum#!/testme

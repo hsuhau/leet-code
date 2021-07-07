@@ -1,5 +1,7 @@
 package com.hsuhau.easy.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * 70. 爬楼梯
  * 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
@@ -24,9 +26,17 @@ package com.hsuhau.easy.service;
  * 2.  1 阶 + 2 阶
  * 3.  2 阶 + 1 阶
  */
+@Service
 public class ClimbingStairs {
-//    todo
-    public int climbStairs(int n) {
-        return 0;
+    // you need to treat n as an unsigned value
+    public int hammingWeight(int n) {
+        char[] chars = Integer.toBinaryString(n).toCharArray();
+        int count = 0;
+        for (char aChar : chars) {
+            if (aChar == '1') {
+                count++;
+            }
+        }
+        return count;
     }
 }
