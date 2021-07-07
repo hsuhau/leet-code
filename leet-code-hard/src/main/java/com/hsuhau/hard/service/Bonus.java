@@ -1,7 +1,5 @@
 package com.hsuhau.hard.service;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 /**
@@ -63,12 +61,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class Bonus {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(Bonus.class);
     // todo 题目还没看
 
     public int[] bonus(int n, int[][] leadership, int[][] operations) {
-        LOGGER.info("method bonus begin.");
-        LOGGER.info("method bonus end.");
+
         return null;
     }
 }

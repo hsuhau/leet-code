@@ -1,5 +1,7 @@
 package com.hsuhau.hard.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * 你将获得 K 个鸡蛋，并可以使用一栋从 1 到 N  共有 N 层楼的建筑。
  * <p>
@@ -43,6 +45,7 @@ package com.hsuhau.hard.service;
  * 链接：https://leetcode-cn.com/problems/super-egg-drop
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
+@Service
 public class SuperEggDrop {
     public int superEggDrop(int K, int N) {
         // todo 没想出来，似乎很神奇

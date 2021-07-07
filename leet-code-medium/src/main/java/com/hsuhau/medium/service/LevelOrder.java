@@ -1,6 +1,7 @@
 package com.hsuhau.medium.service;
 
 import com.hsuhau.common.model.TreeNode;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,6 +35,7 @@ import java.util.List;
  * 节点总数 <= 1000
  * 通过次数4,485提交次数7,484
  */
+@Service
 public class LevelOrder {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> list = new ArrayList<>();

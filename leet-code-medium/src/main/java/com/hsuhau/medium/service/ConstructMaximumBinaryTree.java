@@ -1,8 +1,8 @@
 package com.hsuhau.medium.service;
 
 import com.hsuhau.common.model.TreeNode;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.sun.org.slf4j.internal.Logger;
+import com.sun.org.slf4j.internal.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 /**

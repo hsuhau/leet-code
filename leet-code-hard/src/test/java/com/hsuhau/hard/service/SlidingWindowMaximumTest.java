@@ -1,27 +1,18 @@
 package com.hsuhau.hard.service;
 
+import com.hsuhau.MainApplication;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.ArrayDeque;
-
-import static org.mockito.Mockito.*;
-
+@SpringBootTest(classes = MainApplication.class)
+@RunWith(SpringRunner.class)
 class SlidingWindowMaximumTest {
-    @Mock
-    ArrayDeque<Integer> deque;
-    //Field nums of type int[] - was not mocked since Mockito doesn't mock arrays
-    @InjectMocks
-    SlidingWindowMaximum slidingWindowMaximum;
-
-    @BeforeEach
-    void setUp() {
-        MockitoAnnotations.initMocks(this);
-    }
+    @Autowired
+    private SlidingWindowMaximum slidingWindowMaximum;
 
     @Test
     void testMaxSlidingWindow() {

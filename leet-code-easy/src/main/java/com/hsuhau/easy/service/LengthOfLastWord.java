@@ -1,5 +1,7 @@
 package com.hsuhau.easy.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * 58. 最后一个单词的长度
  *
@@ -18,6 +20,7 @@ package com.hsuhau.easy.service;
  * 输入: "Hello World"
  * 输出: 5
  */
+@Service
 public class LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         int len = s.length();

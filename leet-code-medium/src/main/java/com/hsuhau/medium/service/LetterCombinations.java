@@ -39,12 +39,15 @@ package com.hsuhau.medium.service;//给定一个仅包含数字 2-9 的字符串
 // 👍 1383 👎 0
 
 
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 //leetcode submit region begin(Prohibit modification and deletion)
+@Service
 public class LetterCombinations {
     public List<String> letterCombinations(String digits) {
         List<String> combinations = new ArrayList<>();

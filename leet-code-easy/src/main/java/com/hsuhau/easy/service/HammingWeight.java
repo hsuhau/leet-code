@@ -59,7 +59,10 @@ package com.hsuhau.easy.service;
 // 👍 360 👎 0
 
 
+import org.springframework.stereotype.Service;
+
 //leetcode submit region begin(Prohibit modification and deletion)
+@Service
 public class HammingWeight {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {

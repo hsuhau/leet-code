@@ -1,5 +1,7 @@
 package com.hsuhau.medium.service;
 
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 
 /**
@@ -30,6 +32,7 @@ import java.util.List;
  *   [3,5]
  * ]
  */
+@Service
 public class CombinationSum {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         return null;

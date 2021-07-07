@@ -1,4 +1,4 @@
-package com.hsuhau.main;
+package com.hsuhau;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -50,7 +50,10 @@ package com.hsuhau.easy.service;
 // Related Topics 数组 双指针
 
 
+import org.springframework.stereotype.Service;
+
 //leetcode submit region begin(Prohibit modification and deletion)
+@Service
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
         int i = 0;

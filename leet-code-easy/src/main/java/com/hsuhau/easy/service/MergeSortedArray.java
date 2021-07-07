@@ -1,6 +1,7 @@
 package com.hsuhau.easy.service;
 
 import com.alibaba.fastjson.JSONObject;
+import org.springframework.stereotype.Service;
 
 /**
  * 88. 合并两个有序数组
@@ -27,6 +28,7 @@ import com.alibaba.fastjson.JSONObject;
  *
  * @see <a href="https://leetcode-cn.com/problems/merge-sorted-array/">https://leetcode-cn.com/problems/merge-sorted-array/</a>
  */
+@Service
 public class MergeSortedArray {
     /**
      * @param nums1

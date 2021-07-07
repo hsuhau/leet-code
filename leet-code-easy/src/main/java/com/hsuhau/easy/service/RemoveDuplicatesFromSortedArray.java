@@ -1,5 +1,7 @@
 package com.hsuhau.easy.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * 给定一个排序数组，你需要在 原地 删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
  * <p>
@@ -46,7 +48,7 @@ package com.hsuhau.easy.service;
  * Related Topics 数组 双指针
  */
 
-
+@Service
 public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0) return 0;

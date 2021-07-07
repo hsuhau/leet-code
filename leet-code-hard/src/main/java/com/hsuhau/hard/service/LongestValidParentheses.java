@@ -1,5 +1,7 @@
 package com.hsuhau.hard.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * 32.最长有效括号
  * 给定一个只包含‘(’和')'的字符串，找出最长的包含有效括号的字串的长度
@@ -19,6 +21,7 @@ package com.hsuhau.hard.service;
  * 链接：https://leetcode-cn.com/problems/longest-valid-parentheses
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
+@Service
 public class LongestValidParentheses {
     public int longestValidParentheses(String s) {
         int maxLength = 0;

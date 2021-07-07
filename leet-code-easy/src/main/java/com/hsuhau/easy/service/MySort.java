@@ -23,7 +23,10 @@ package com.hsuhau.easy.service;
 // 👍 707 👎 0
 
 
+import org.springframework.stereotype.Service;
+
 //leetcode submit region begin(Prohibit modification and deletion)
+@Service
 public class MySort {
     public static void main(String[] args) {
         MySort mySort = new MySort();

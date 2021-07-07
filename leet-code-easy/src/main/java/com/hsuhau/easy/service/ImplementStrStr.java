@@ -24,7 +24,10 @@ package com.hsuhau.easy.service;
 // 对于本题而言，当 needle 是空字符串时我们应当返回 0 。这与C语言的 strstr() 以及 Java的 indexOf() 定义相符。
 // Related Topics 双指针 字符串
 
+import org.springframework.stereotype.Service;
+
 // leetcode submit region begin(Prohibit modification and deletion)
+@Service
 public class ImplementStrStr {
   public int strStr(String haystack, String needle) {
     return haystack.indexOf(needle);

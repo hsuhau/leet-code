@@ -1,5 +1,7 @@
 package com.hsuhau.easy.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * 171. Excel表列序号
  * <p>
@@ -30,6 +32,7 @@ package com.hsuhau.easy.service;
  * 输入: "ZY"
  * 输出: 701
  */
+@Service
 public class ExcelSheetColumnNumber {
     public int titleToNumber(String s) {
         int num = 0;

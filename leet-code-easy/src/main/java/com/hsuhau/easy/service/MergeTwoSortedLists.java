@@ -1,6 +1,7 @@
 package com.hsuhau.easy.service;
 
 import com.hsuhau.common.model.ListNode;
+import org.springframework.stereotype.Service;
 
 /**
  * 21. 合并两个有序链表
@@ -13,6 +14,7 @@ import com.hsuhau.common.model.ListNode;
  * 输入：1->2->4, 1->3->4
  * 输出：1->1->2->3->4->4
  */
+@Service
 public class MergeTwoSortedLists {
     /**
      * 方法一：递归

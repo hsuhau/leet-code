@@ -1,5 +1,7 @@
 package com.hsuhau.easy.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * 121. 买卖股票的最佳时机
  * <p>
@@ -25,6 +27,7 @@ package com.hsuhau.easy.service;
  * 输出: 0
  * 解释: 在这种情况下, 没有交易完成, 所以最大利润为 0。
  */
+@Service
 public class BestTimeToBuyAndSellStock {
 
     // 暴力算法 ，独立实现

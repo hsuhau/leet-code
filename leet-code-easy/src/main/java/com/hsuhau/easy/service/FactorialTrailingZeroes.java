@@ -1,5 +1,7 @@
 package com.hsuhau.easy.service;
 
+import org.springframework.stereotype.Service;
+
 import java.math.BigInteger;
 
 /**
@@ -21,6 +23,7 @@ import java.math.BigInteger;
  * 解释: 5! = 120, 尾数中有 1 个零.
  * 说明: 你算法的时间复杂度应为 O(log n)
  */
+@Service
 public class FactorialTrailingZeroes {
     public int trailingZeroes(int n) {
         BigInteger factorial = BigInteger.ONE;

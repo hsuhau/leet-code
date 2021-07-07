@@ -1,5 +1,7 @@
 package com.hsuhau.easy.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * 面试题05. 替换空格
  * 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
@@ -16,6 +18,7 @@ package com.hsuhau.easy.service;
  *
  * 0 <= s 的长度 <= 10000
  */
+@Service
 public class ReplaceSpace {
     public String replaceSpace(String s) {
         return s.replaceAll(" ", "%20");

@@ -1,5 +1,7 @@
 package com.hsuhau.easy.service;
 
+import org.springframework.stereotype.Service;
+
 import java.math.BigInteger;
 
 /**
@@ -24,6 +26,7 @@ import java.math.BigInteger;
  * 输出: [4,3,2,2]
  * 解释: 输入数组表示数字 4321。
  */
+@Service
 public class PlusOne {
     public int[] plusOne(int[] digits) {
         BigInteger start = BigInteger.ZERO;

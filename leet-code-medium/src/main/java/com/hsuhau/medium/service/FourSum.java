@@ -1,5 +1,7 @@
 package com.hsuhau.medium.service;
 
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -26,6 +28,7 @@ import java.util.List;
  * [-2,  0, 0, 2]
  * ]
  */
+@Service
 public class FourSum {
     //todo 秀啊
     public List<List<Integer>> fourSum(int[] nums, int target) {

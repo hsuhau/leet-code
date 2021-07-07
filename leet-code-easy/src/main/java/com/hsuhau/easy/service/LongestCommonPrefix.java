@@ -1,5 +1,7 @@
 package com.hsuhau.easy.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * 14. 最长公共前缀
  * 编写一个函数来查找字符串数组中的最长公共前缀。
@@ -19,6 +21,7 @@ package com.hsuhau.easy.service;
  * <p>
  * 所有输入只包含小写字母 a-z 。
  */
+@Service
 public class LongestCommonPrefix {
     public String longestCommonPrefix0(String[] strs) {
         if (strs == null || strs.length == 0) {

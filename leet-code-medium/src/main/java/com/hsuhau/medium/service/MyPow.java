@@ -1,8 +1,11 @@
 package com.hsuhau.medium.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * 50. Pow(x, n)
  */
+@Service
 public class MyPow {
     public static double myPow(double x, int n) {
         double y = 1.0;

@@ -1,5 +1,7 @@
 package com.hsuhau.easy.service;
 
+import org.springframework.stereotype.Service;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
@@ -35,6 +37,7 @@ import java.util.Stack;
  * 输入: "{[]}"
  * 输出: true
  */
+@Service
 public class ValidParentheses {
 
     private Map map = new HashMap<Character, Character>();

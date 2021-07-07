@@ -21,9 +21,12 @@ package com.hsuhau.easy.service;//给定一个非负整数 num。对于 0 ≤ i 
 // 👍 761 👎 0
 
 
+import org.springframework.stereotype.Service;
+
 import java.util.Arrays;
 
 //leetcode submit region begin(Prohibit modification and deletion)
+@Service
 public class CountBits {
     public static void main(String[] args) {
         CountBits solution = new CountBits();

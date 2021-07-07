@@ -1,6 +1,7 @@
 package com.hsuhau.easy.service;
 
 import com.hsuhau.common.model.ListNode;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +19,7 @@ import java.util.List;
  * 输入: 1->1->2->3->3
  * 输出: 1->2->3
  */
+@Service
 public class RemoveDuplicatesFromSortedList {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {

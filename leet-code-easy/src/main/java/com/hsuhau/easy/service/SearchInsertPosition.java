@@ -29,7 +29,10 @@ package com.hsuhau.easy.service;
 //
 // Related Topics 数组 二分查找
 
+import org.springframework.stereotype.Service;
+
 // leetcode submit region begin(Prohibit modification and deletion)
+@Service
 public class SearchInsertPosition {
 
     public int searchInsert(int[] nums, int target) {

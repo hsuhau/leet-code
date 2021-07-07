@@ -1,12 +1,20 @@
 package com.hsuhau.easy.service;
 
 import com.alibaba.fastjson.JSONObject;
+import com.hsuhau.MainApplication;
 import com.hsuhau.common.model.ListNode;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
+@SpringBootTest(classes = MainApplication.class)
+@RunWith(SpringRunner.class)
 public class RemoveDuplicatesFromSortedListTest {
-    RemoveDuplicatesFromSortedList removeDuplicatesFromSortedList = new RemoveDuplicatesFromSortedList();
+    @Autowired
+    private RemoveDuplicatesFromSortedList removeDuplicatesFromSortedList;
 
     @Test
     public void testDeleteDuplicates() throws Exception {

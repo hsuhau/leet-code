@@ -1,5 +1,7 @@
 package com.hsuhau.easy.service;
 
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,6 +24,7 @@ import java.util.List;
  * 输出: false
  * 解释: 从右向左读, 为 01 。因此它不是一个回文数。
  */
+@Service
 public class PalindromeNumber {
     public boolean isPalindrome(int x) {
         if (x < 0) {
