@@ -28,6 +28,7 @@ import java.util.List;
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/add-two-numbers
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ *
  * @author hsuhau
  */
 @Service
@@ -141,12 +142,17 @@ public class AddTwoNumbers {
         v = add(v1, v2);
         List<ListNode> nodes = new ArrayList<>();
         for (int i = 0; i < v.size(); i++) {
-            ListNode node = new ListNode();
-            node.val = v.get(v.size() - 1);
+            ListNode node = new ListNode(v.get(v.size() - i - 1));
+            nodes.add(node);
         }
-        ListNode node = nodes.get(0);
+        ListNode node = null;
         for (int i = 0; i < nodes.size(); i++) {
-            node = new ListNode(node.val, nodes.get(i));
+            if (node == null) {
+                node = nodes.get(i);
+            } else {
+                nodes.get(i).next = node;
+                node = nodes.get(i);
+            }
         }
         return node;
     }
@@ -156,24 +162,26 @@ public class AddTwoNumbers {
         int length = v1.size();
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < length; i++) {
-            v += v1.get(i) * 10 ^ (v1.size() - i);
-            v += v2.get(i) * 10 ^ (v2.size() - i);
+            v += v1.get(i) * Math.pow(10, i);
+            v += v2.get(i) * Math.pow(10, i);
         }
-        for (int i = 0; i < length; i++) {
-            int m = v % (10 ^ (length - i));
+
+        for (int i = 0, n = 1; i < String.valueOf(v).length(); i++, n *= 10) {
+            int m = v / n % 10;
             list.add(m);
-            v -= 10 ^ (length - i) * m;
         }
         return list;
     }
 
 
     private void extracted(ListNode l, List<Integer> v) {
-        if (l != null) {
+        while (l != null) {
             v.add(l.val);
-        }
-        while (l != null && l.next != null) {
-            v.add(l.next.val);
+            if (l.next != null) {
+                l = l.next;
+            } else {
+                break;
+            }
         }
     }
 }

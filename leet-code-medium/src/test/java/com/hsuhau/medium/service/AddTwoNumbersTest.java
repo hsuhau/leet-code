@@ -17,33 +17,26 @@ public class AddTwoNumbersTest {
 
     @Test
     public void testAddTwoNumbers() throws Exception {
-//        ListNode result = addTwoNumbers.addTwoNumbers(new ListNode(0), new ListNode(0));
-//        Assert.assertEquals(new ListNode(0), result);
-    }
-
-    @Test
-    public void testAddTwoNumbers0() throws Exception {
-
         ListNode node_1_3 = new ListNode(3);
         ListNode node_1_2 = new ListNode(4);
         ListNode node_1_1 = new ListNode(2);
-        node_1_2.next = node_1_3.next;
-        node_1_1.next = node_1_2.next;
+        node_1_2.next = node_1_3;
+        node_1_1.next = node_1_2;
 
 
         ListNode node_2_3 = new ListNode(4);
         ListNode node_2_2 = new ListNode(6);
         ListNode node_2_1 = new ListNode(5);
-        node_2_2.next = node_2_3.next;
-        node_2_1.next = node_2_2.next;
+        node_2_2.next = node_2_3;
+        node_2_1.next = node_2_2;
 
-        ListNode result = addTwoNumbers.addTwoNumbers0(node_1_1, node_2_1);
+        ListNode result = addTwoNumbers.addTwoNumbers(node_1_1, node_2_1);
 
         ListNode node_3_3 = new ListNode(8);
         ListNode node_3_2 = new ListNode(0);
         ListNode node_3_1 = new ListNode(7);
-        node_3_2.next = node_3_3.next;
-        node_3_1.next = node_3_2.next;
+        node_3_2.next = node_3_3;
+        node_3_1.next = node_3_2;
 
         while (result != null) {
             System.out.println("result.val = " + result.val);
@@ -53,6 +46,33 @@ public class AddTwoNumbersTest {
                 break;
             }
         }
+        Assert.assertEquals(node_3_1, result);
+    }
+
+    @Test
+    public void psvmtestAddTwoNumbers0() throws Exception {
+
+        ListNode node_1_3 = new ListNode(3);
+        ListNode node_1_2 = new ListNode(4);
+        ListNode node_1_1 = new ListNode(2);
+        node_1_2.next = node_1_3;
+        node_1_1.next = node_1_2;
+
+
+        ListNode node_2_3 = new ListNode(4);
+        ListNode node_2_2 = new ListNode(6);
+        ListNode node_2_1 = new ListNode(5);
+        node_2_2.next = node_2_3;
+        node_2_1.next = node_2_2;
+
+        ListNode result = addTwoNumbers.addTwoNumbers0(node_1_1, node_2_1);
+
+        ListNode node_3_3 = new ListNode(8);
+        ListNode node_3_2 = new ListNode(0);
+        ListNode node_3_1 = new ListNode(7);
+        node_3_2.next = node_3_3;
+        node_3_1.next = node_3_2;
+
         Assert.assertEquals(node_3_1, result);
     }
 }
