@@ -33,26 +33,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class LengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
-        // todo 解答错误
-
-//        List<String> array = Arrays.asList(s.split(""));
-//        List<String> characterList = new ArrayList<>();
-//
-//        for (String c : array) {
-//            if (!characterList.contains(c)) {
-//                characterList.add(c);
-//            }
-//        }
-//        int len = 0;
-//        for (String c : characterList) {
-//            for (String x : array) {
-//                int lenB = array.indexOf(x);
-//                s.indexOf("");
-//            }
-//        }
-//
-//        return len;
-
         int i = 0;
         int flag = 0;
         int length = 0;
