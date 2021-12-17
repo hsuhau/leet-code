@@ -50,7 +50,7 @@ public class AddTwoNumbersTest {
     }
 
     @Test
-    public void psvmtestAddTwoNumbers0() throws Exception {
+    public void testAddTwoNumbers0() throws Exception {
 
         ListNode node_1_3 = new ListNode(3);
         ListNode node_1_2 = new ListNode(4);
