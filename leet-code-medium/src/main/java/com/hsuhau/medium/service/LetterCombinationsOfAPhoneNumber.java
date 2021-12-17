@@ -34,10 +34,6 @@ import java.util.Map;
  * digits[i] 是范围 ["2", "9"] 的一个数字。
  */
 public class LetterCombinationsOfAPhoneNumber {
-    public static void main(String[] args) {
-        LetterCombinationsOfAPhoneNumber solution = new LetterCombinationsOfAPhoneNumber();
-        solution.letterCombinations("2367");
-    }
     public List<String> letterCombinations(String digits) {
         Map<Integer, List<String>> letters = new HashMap<>() {
             {
@@ -89,6 +85,5 @@ public class LetterCombinationsOfAPhoneNumber {
         }
 
         return result;
-
     }
 }
