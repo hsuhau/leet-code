@@ -1,8 +1,6 @@
 package com.hsuhau.medium.service;
 
 import com.hsuhau.common.model.ListNode;
-import com.sun.org.slf4j.internal.Logger;
-import com.sun.org.slf4j.internal.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -92,8 +90,6 @@ public class AddTwoNumbers {
      * @param l2
      * @return
      */
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(AddTwoNumbers.class);
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0);
