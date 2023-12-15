@@ -1,5 +1,7 @@
 package com.hsuhau.medium.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * 48. 旋转图像
  * 给定一个 n × n 的二维矩阵表示一个图像。
@@ -43,6 +45,7 @@ package com.hsuhau.medium.service;
  * [16, 7,10,11]
  * ]
  */
+@Service
 public class RotateImage {
     public void rotate(int[][] matrix) {
         //转置
