@@ -1,8 +1,7 @@
 package com.hsuhau.medium.service;
 
 import com.hsuhau.common.model.TreeNode;
-import com.sun.org.slf4j.internal.Logger;
-import com.sun.org.slf4j.internal.LoggerFactory;
+
 import org.springframework.stereotype.Service;
 
 /**
@@ -45,8 +44,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ConstructMaximumBinaryTree {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(ConstructMaximumBinaryTree.class);
 
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         return construct(nums, 0, nums.length);
