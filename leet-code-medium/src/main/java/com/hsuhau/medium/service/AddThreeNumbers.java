@@ -58,7 +58,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 @Service
@@ -90,5 +92,34 @@ public class AddThreeNumbers {
             }
         }
         return result.stream().distinct().collect(Collectors.toList());
+    }
+
+    public List<List<Integer>> threeSum_set(int[] nums) {
+        nums = Arrays.stream(nums).sorted().toArray();
+        System.out.println("nums = " + nums);
+
+        Set<List<Integer>> result = new HashSet<>();
+
+        for (int i = 0; i < nums.length - 2; i++) {
+            int left = i + 1;
+            int right = nums.length - 1;
+            while (left < right) {
+                long sum = (long) nums[left] + (long) nums[right] + (long) nums[i];
+                if (sum == 0) {
+                    List<Integer> list = new ArrayList<>();
+                    list.add(nums[i]);
+                    list.add(nums[left]);
+                    list.add(nums[right]);
+                    result.add(list);
+                    right--;
+                    left++;
+                } else if (sum > 0) {
+                    right--;
+                } else {
+                    left++;
+                }
+            }
+        }
+        return result.stream().collect(Collectors.toList());
     }
 }
