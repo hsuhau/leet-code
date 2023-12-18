@@ -6,6 +6,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -23,11 +24,11 @@ public class LetterCombinationsOfAPhoneNumberTest {
     @Autowired
     private LetterCombinationsOfAPhoneNumber letterCombinationsOfAPhoneNumber;
 
-    @DisplayName("2367")
+    @DisplayName("电话号码的字母组合")
     @ParameterizedTest
-    @ValueSource(strings = {"2367"})
-    public void testLetterCombinations(String digits) {
+    @CsvSource({"2367,cfos"})
+    public void testLetterCombinations(String digits, String excepted) {
         List<String> result = letterCombinationsOfAPhoneNumber.letterCombinations(digits);
-        Assertions.assertEquals("cfos", result.get(result.size() - 1));
+        Assertions.assertEquals(excepted, result.get(result.size() - 1));
     }
 }
