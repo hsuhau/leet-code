@@ -67,7 +67,7 @@
     <logger name="java.sql.ResultSet" level="debug"/>
 
     <!-- 设置日志级别为INFO，输出到三个地方 -->
-    <root level="DEBUG">
+    <root level="INFO">
         <appender-ref ref="consoleApp"/>
         <appender-ref ref="fileInfoApp"/>
         <appender-ref ref="fileErrorApp"/>
