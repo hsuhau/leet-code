@@ -1,0 +1,12 @@
+2024-04-07 14:49:19.071 INFO [main]com.hsuhau.medium.service.RotateListTest.logStarting:55 -Starting RotateListTest on LAPTOP-ILSEUOVJ with PID 22968 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-07 14:49:19.073 INFO [main]com.hsuhau.medium.service.RotateListTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-07 14:49:19.786 INFO [main]com.hsuhau.medium.service.RotateListTest.logStarted:61 -Started RotateListTest in 1.173 seconds (JVM running for 3.104)
+2024-04-07 14:50:41.177 INFO [main]com.hsuhau.medium.service.RotateListTest.logStarting:55 -Starting RotateListTest on LAPTOP-ILSEUOVJ with PID 35756 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-07 14:50:41.211 INFO [main]com.hsuhau.medium.service.RotateListTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-07 14:50:41.742 INFO [main]com.hsuhau.medium.service.RotateListTest.logStarted:61 -Started RotateListTest in 0.965 seconds (JVM running for 1.944)
+2024-04-07 14:53:07.101 INFO [main]com.hsuhau.medium.service.RotateListTest.logStarting:55 -Starting RotateListTest on LAPTOP-ILSEUOVJ with PID 22496 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-07 14:53:07.102 INFO [main]com.hsuhau.medium.service.RotateListTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-07 14:53:07.679 INFO [main]com.hsuhau.medium.service.RotateListTest.logStarted:61 -Started RotateListTest in 0.965 seconds (JVM running for 1.965)
+2024-04-07 15:03:25.469 INFO [main]com.hsuhau.medium.service.RotateListTest.logStarting:55 -Starting RotateListTest on LAPTOP-ILSEUOVJ with PID 6192 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-07 15:03:25.470 INFO [main]com.hsuhau.medium.service.RotateListTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-07 15:03:26.058 INFO [main]com.hsuhau.medium.service.RotateListTest.logStarted:61 -Started RotateListTest in 0.956 seconds (JVM running for 2.002)

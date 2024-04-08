@@ -1,0 +1,8 @@
+2023-12-18 08:54:48.665 INFO [main]com.hsuhau.hard.service.ValidNumberTest.logStarting:55 -Starting ValidNumberTest on LAPTOP-ILSEUOVJ with PID 28804 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-hard)
+2023-12-18 08:54:48.668 INFO [main]com.hsuhau.hard.service.ValidNumberTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 08:54:49.297 INFO [main]com.hsuhau.hard.service.ValidNumberTest.logStarted:61 -Started ValidNumberTest in 1.374 seconds (JVM running for 3.276)
+2023-12-18 08:54:49.823 INFO [main]com.hsuhau.hard.service.ValidNumberTest.done:43 -@AfterAll - executed after all test methods.
+2023-12-18 09:33:21.195 INFO [main]com.hsuhau.hard.service.ValidNumberTest.logStarting:55 -Starting ValidNumberTest on LAPTOP-ILSEUOVJ with PID 15740 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-hard)
+2023-12-18 09:33:21.243 INFO [main]com.hsuhau.hard.service.ValidNumberTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 09:33:21.656 INFO [main]com.hsuhau.hard.service.ValidNumberTest.logStarted:61 -Started ValidNumberTest in 0.958 seconds (JVM running for 2.057)
+2023-12-18 09:33:21.986 INFO [main]com.hsuhau.hard.service.ValidNumberTest.done:43 -@AfterAll - executed after all test methods.

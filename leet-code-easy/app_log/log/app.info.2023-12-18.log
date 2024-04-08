@@ -1,0 +1,228 @@
+2023-12-18 14:31:17.066 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 42464 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 14:31:17.068 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 14:31:17.712 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 1.204 seconds (JVM running for 2.211)
+2023-12-18 14:33:12.245 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 34728 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 14:33:12.295 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 14:33:12.829 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 0.98 seconds (JVM running for 1.838)
+2023-12-18 14:33:13.059 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:11 -i = 0
+2023-12-18 14:33:13.060 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:13 -j = 0
+2023-12-18 14:33:13.060 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:13 -j = 1
+2023-12-18 14:33:13.083 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:11 -i = 0
+2023-12-18 14:33:13.083 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:13 -j = 0
+2023-12-18 14:33:13.083 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:13 -j = 1
+2023-12-18 14:33:13.083 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:11 -i = 1
+2023-12-18 14:33:13.083 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:13 -j = 0
+2023-12-18 14:33:13.084 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:13 -j = 1
+2023-12-18 14:33:13.091 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:11 -i = 0
+2023-12-18 14:33:13.092 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:13 -j = 0
+2023-12-18 14:33:13.092 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:13 -j = 1
+2023-12-18 14:33:13.092 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:11 -i = 1
+2023-12-18 14:33:13.092 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:13 -j = 0
+2023-12-18 14:33:13.092 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:13 -j = 1
+2023-12-18 14:33:13.092 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:11 -i = 2
+2023-12-18 14:33:13.092 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:13 -j = 0
+2023-12-18 14:33:13.093 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:13 -j = 1
+2023-12-18 14:34:53.343 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 42648 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 14:34:53.345 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 14:34:53.840 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 0.849 seconds (JVM running for 1.632)
+2023-12-18 14:34:54.147 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:12 -i = 0 j = 0
+2023-12-18 14:34:54.149 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:12 -i = 0 j = 1
+2023-12-18 14:34:54.179 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:12 -i = 0 j = 0
+2023-12-18 14:34:54.180 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:12 -i = 0 j = 1
+2023-12-18 14:34:54.180 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:12 -i = 1 j = 0
+2023-12-18 14:34:54.180 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:12 -i = 1 j = 1
+2023-12-18 14:34:54.191 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:12 -i = 0 j = 0
+2023-12-18 14:34:54.191 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:12 -i = 0 j = 1
+2023-12-18 14:34:54.192 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:12 -i = 1 j = 0
+2023-12-18 14:34:54.192 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:12 -i = 1 j = 1
+2023-12-18 14:34:54.192 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:12 -i = 2 j = 0
+2023-12-18 14:34:54.192 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:12 -i = 2 j = 1
+2023-12-18 14:50:59.699 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 18452 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 14:50:59.701 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 14:51:00.246 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 0.913 seconds (JVM running for 1.844)
+2023-12-18 14:51:00.499 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 0 
+2023-12-18 14:51:00.501 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 1 
+2023-12-18 14:51:00.501 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -[0, 2, -2]
+2023-12-18 14:51:00.522 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 0 
+2023-12-18 14:51:00.522 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 1 
+2023-12-18 14:51:00.522 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 1 j = 0 
+2023-12-18 14:51:00.522 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 1 j = 1 
+2023-12-18 14:51:00.522 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -[0, 2, 2, -4]
+2023-12-18 14:51:00.528 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 0 
+2023-12-18 14:51:00.528 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 1 
+2023-12-18 14:51:00.528 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 1 j = 0 
+2023-12-18 14:51:00.529 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 1 j = 1 
+2023-12-18 14:51:00.529 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 2 j = 0 
+2023-12-18 14:51:00.529 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 2 j = 1 
+2023-12-18 14:51:00.529 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -[0, 0, 2, -2]
+2023-12-18 14:54:29.723 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 42140 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 14:54:29.724 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 14:54:30.337 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 0.982 seconds (JVM running for 1.832)
+2023-12-18 14:54:30.606 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 0 j = 0 
+2023-12-18 14:54:30.608 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 0 j = 1 
+2023-12-18 14:54:30.610 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:24 -in[0, 2, 0]
+2023-12-18 14:54:30.610 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:25 -out[0, 0, 2]
+2023-12-18 14:54:30.631 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 0 j = 0 
+2023-12-18 14:54:30.631 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 0 j = 1 
+2023-12-18 14:54:30.631 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 1 j = 0 
+2023-12-18 14:54:30.631 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 1 j = 1 
+2023-12-18 14:54:30.631 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:24 -in[0, 2, 2, 0]
+2023-12-18 14:54:30.632 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:25 -out[0, 0, 0, 4]
+2023-12-18 14:54:30.638 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 0 j = 0 
+2023-12-18 14:54:30.639 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 0 j = 1 
+2023-12-18 14:54:30.639 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 1 j = 0 
+2023-12-18 14:54:30.639 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 1 j = 1 
+2023-12-18 14:54:30.639 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 2 j = 0 
+2023-12-18 14:54:30.639 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 2 j = 1 
+2023-12-18 14:54:30.639 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:24 -in[0, 2, 2, 2]
+2023-12-18 14:54:30.639 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:25 -out[0, 2, 0, 4]
+2023-12-18 14:55:16.382 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 19484 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 14:55:16.384 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 14:55:16.879 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 0.85 seconds (JVM running for 1.678)
+2023-12-18 14:55:17.123 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 0 j = 0 
+2023-12-18 14:55:17.124 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 0 j = 1 
+2023-12-18 14:55:17.126 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:24 -in[0, 0, 2]
+2023-12-18 14:55:17.126 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:25 -out[0, 2, 0]
+2023-12-18 14:55:17.146 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 0 j = 0 
+2023-12-18 14:55:17.146 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 0 j = 1 
+2023-12-18 14:55:17.146 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 1 j = 0 
+2023-12-18 14:55:17.146 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 1 j = 1 
+2023-12-18 14:55:17.147 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:24 -in[0, 0, 0, 4]
+2023-12-18 14:55:17.147 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:25 -out[0, 2, 2, 0]
+2023-12-18 14:55:17.156 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 0 j = 0 
+2023-12-18 14:55:17.157 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 0 j = 1 
+2023-12-18 14:55:17.157 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 1 j = 0 
+2023-12-18 14:55:17.157 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 1 j = 1 
+2023-12-18 14:55:17.157 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 2 j = 0 
+2023-12-18 14:55:17.157 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -i = 2 j = 1 
+2023-12-18 14:55:17.158 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:24 -in[0, 2, 0, 4]
+2023-12-18 14:55:17.158 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:25 -out[0, 2, 2, 2]
+2023-12-18 14:56:52.197 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 38116 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 14:56:52.200 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 14:56:52.746 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 0.933 seconds (JVM running for 1.833)
+2023-12-18 14:56:53.013 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 0 
+2023-12-18 14:56:53.014 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 1 
+2023-12-18 14:56:53.016 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -in[0, 0, 2]
+2023-12-18 14:56:53.017 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:24 -out[0, 2, 0]
+2023-12-18 14:56:53.031 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 0 
+2023-12-18 14:56:53.031 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 1 
+2023-12-18 14:56:53.031 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 1 j = 0 
+2023-12-18 14:56:53.032 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 1 j = 1 
+2023-12-18 14:56:53.032 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -in[0, 0, 0, 4]
+2023-12-18 14:56:53.032 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:24 -out[0, 2, 2, 0]
+2023-12-18 14:56:53.042 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 0 
+2023-12-18 14:56:53.042 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 1 
+2023-12-18 14:56:53.042 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 1 j = 0 
+2023-12-18 14:56:53.043 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 1 j = 1 
+2023-12-18 14:56:53.043 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 2 j = 0 
+2023-12-18 14:56:53.043 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 2 j = 1 
+2023-12-18 14:56:53.043 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -in[0, 2, 0, 4]
+2023-12-18 14:56:53.043 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:24 -out[0, 2, 2, 2]
+2023-12-18 14:57:41.457 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 47520 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 14:57:41.458 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 14:57:41.967 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 0.953 seconds (JVM running for 1.926)
+2023-12-18 14:57:42.222 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 0 
+2023-12-18 14:57:42.223 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 1 
+2023-12-18 14:57:42.225 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -in[0, 0, 2]
+2023-12-18 14:57:42.225 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:24 -out[0, 2, 0]
+2023-12-18 14:57:47.603 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 0 
+2023-12-18 14:57:47.603 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 1 
+2023-12-18 14:57:47.603 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 1 j = 0 
+2023-12-18 14:57:47.603 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 1 j = 1 
+2023-12-18 14:57:47.603 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -in[0, 0, 0, 4]
+2023-12-18 14:57:47.604 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:24 -out[0, 2, 2, 0]
+2023-12-18 14:57:47.614 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 0 
+2023-12-18 14:57:47.615 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 0 j = 1 
+2023-12-18 14:57:47.615 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 1 j = 0 
+2023-12-18 14:57:47.615 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 1 j = 1 
+2023-12-18 14:57:47.615 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 2 j = 0 
+2023-12-18 14:57:47.615 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:18 -i = 2 j = 1 
+2023-12-18 14:57:47.616 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -in[0, 2, 0, 4]
+2023-12-18 14:57:47.616 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:24 -out[0, 2, 2, 2]
+2023-12-18 15:00:00.739 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 20200 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 15:00:00.741 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 15:00:01.280 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 0.916 seconds (JVM running for 1.777)
+2023-12-18 15:00:01.533 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -in[0, 0, 1]
+2023-12-18 15:00:01.534 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:20 -out[0, 1, 0]
+2023-12-18 15:00:01.553 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -in[0, 0, 0, 2]
+2023-12-18 15:00:01.553 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:20 -out[0, 1, 1, 0]
+2023-12-18 15:00:01.559 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -in[0, 1, 0, 2]
+2023-12-18 15:00:01.559 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:20 -out[0, 1, 1, 1]
+2023-12-18 15:00:12.107 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 47708 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 15:00:12.109 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 15:00:12.663 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 0.931 seconds (JVM running for 1.918)
+2023-12-18 15:00:12.932 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -in[0, 0, 1]
+2023-12-18 15:00:12.933 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:20 -out[0, 1, 0]
+2023-12-18 15:01:02.664 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -in[0, 0, 0, 2]
+2023-12-18 15:01:02.664 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:20 -out[0, 1, 1, 0]
+2023-12-18 15:01:02.670 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -in[0, 1, 0, 2]
+2023-12-18 15:01:02.671 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:20 -out[0, 1, 1, 1]
+2023-12-18 15:01:06.150 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 30668 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 15:01:06.164 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 15:01:06.699 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 0.918 seconds (JVM running for 1.814)
+2023-12-18 15:01:06.967 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -in[0, 0, 1]
+2023-12-18 15:01:06.968 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:20 -out[0, 1, 0]
+2023-12-18 15:01:11.961 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -in[0, 0, 0, 2]
+2023-12-18 15:01:11.961 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:20 -out[0, 1, 1, 0]
+2023-12-18 15:01:11.965 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:19 -in[0, 1, 0, 2]
+2023-12-18 15:01:11.965 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:20 -out[0, 1, 1, 1]
+2023-12-18 15:09:15.369 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 45888 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 15:09:15.372 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 15:09:16.034 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 1.145 seconds (JVM running for 2.222)
+2023-12-18 15:09:16.397 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 0, 1]
+2023-12-18 15:09:16.397 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 1, 0]
+2023-12-18 15:09:16.417 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 0, 0, 2]
+2023-12-18 15:09:16.417 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 1, 1, 0]
+2023-12-18 15:09:16.422 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 1, 0, 2]
+2023-12-18 15:09:16.422 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 1, 1, 1]
+2023-12-18 15:09:44.895 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 31616 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 15:09:44.898 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 15:09:45.642 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 1.302 seconds (JVM running for 2.452)
+2023-12-18 15:09:46.036 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 0, 1]
+2023-12-18 15:09:46.036 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 1, 0]
+2023-12-18 15:09:46.055 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 0, 0, 2]
+2023-12-18 15:09:46.055 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 1, 1, 0]
+2023-12-18 15:09:46.060 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 1, 0, 2]
+2023-12-18 15:09:46.060 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 1, 1, 1]
+2023-12-18 15:09:46.064 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 0, 0, 0]
+2023-12-18 15:09:46.065 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 0, 0, 0]
+2023-12-18 15:10:13.120 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 43956 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 15:10:13.122 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 15:10:13.731 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 1.037 seconds (JVM running for 2.006)
+2023-12-18 15:10:14.043 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 0, 1]
+2023-12-18 15:10:14.044 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 1, 0]
+2023-12-18 15:10:14.059 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 0, 0, 2]
+2023-12-18 15:10:14.059 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 1, 1, 0]
+2023-12-18 15:10:14.064 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 1, 0, 2]
+2023-12-18 15:10:14.064 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 1, 1, 1]
+2023-12-18 15:10:14.070 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 0]
+2023-12-18 15:10:14.070 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 0]
+2023-12-18 15:10:31.746 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 44140 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 15:10:31.749 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 15:10:32.399 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 1.073 seconds (JVM running for 2.219)
+2023-12-18 15:10:32.781 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 0, 1]
+2023-12-18 15:10:32.782 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 1, 0]
+2023-12-18 15:10:32.800 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 0, 0, 2]
+2023-12-18 15:10:32.800 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 1, 1, 0]
+2023-12-18 15:10:32.804 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in[0, 1, 0, 2]
+2023-12-18 15:10:32.805 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out[0, 1, 1, 1]
+2023-12-18 15:12:55.094 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 46164 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 15:12:55.096 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 15:12:55.619 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 0.904 seconds (JVM running for 1.809)
+2023-12-18 15:12:55.913 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in = [0, 0, 1]
+2023-12-18 15:12:55.914 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out = [0, 1, 0]
+2023-12-18 15:12:55.927 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in = [0, 0, 0, 2]
+2023-12-18 15:12:55.928 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out = [0, 1, 1, 0]
+2023-12-18 15:12:55.931 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in = [0, 1, 0, 2]
+2023-12-18 15:12:55.932 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out = [0, 1, 1, 1]
+2023-12-18 15:15:11.809 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarting:55 -Starting FindTheTownJudgeTest on LAPTOP-ILSEUOVJ with PID 7924 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2023-12-18 15:15:11.811 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2023-12-18 15:15:12.364 INFO [main]com.hsuhau.easy.service.FindTheTownJudgeTest.logStarted:61 -Started FindTheTownJudgeTest in 0.951 seconds (JVM running for 1.912)
+2023-12-18 15:15:12.622 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in = [0, 0, 1]
+2023-12-18 15:15:12.623 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out = [0, 1, 0]
+2023-12-18 15:15:12.637 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in = [0, 0, 0, 2]
+2023-12-18 15:15:12.637 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out = [0, 1, 1, 0]
+2023-12-18 15:15:12.641 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in = [0, 1, 0, 2]
+2023-12-18 15:15:12.641 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out = [0, 1, 1, 1]
+2023-12-18 15:15:12.645 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:22 -in = [0, 0]
+2023-12-18 15:15:12.645 INFO [main]com.hsuhau.easy.service.FindTheTownJudge.findJudge:23 -out = [0, 0]
