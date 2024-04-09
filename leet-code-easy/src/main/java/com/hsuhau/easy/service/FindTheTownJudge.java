@@ -11,6 +11,7 @@ public class FindTheTownJudge {
 
     /**
      * 计数
+     *
      * @param n
      * @param trust
      * @return
@@ -27,7 +28,7 @@ public class FindTheTownJudge {
         log.info("out = {}", Arrays.toString(out));
 
         for (int i = 1; i < n + 1; i++) {
-            if (in[i] == (n -1) && out[i] == 0) {
+            if (in[i] == (n - 1) && out[i] == 0) {
                 return i;
             }
         }

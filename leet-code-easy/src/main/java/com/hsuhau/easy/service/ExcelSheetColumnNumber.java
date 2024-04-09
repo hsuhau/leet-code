@@ -39,7 +39,7 @@ public class ExcelSheetColumnNumber {
         char[] chars = s.toCharArray();
         int len = chars.length;
         for (int i = 0; i < len; i++) {
-            num += (chars[i] -'A' + 1) * Math.pow(26, len - 1 - i);
+            num += (chars[i] - 'A' + 1) * Math.pow(26, len - 1 - i);
         }
         return num;
     }

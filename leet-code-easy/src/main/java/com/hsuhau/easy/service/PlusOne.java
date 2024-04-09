@@ -59,7 +59,7 @@ public class PlusOne {
         res[0] = digits[0] / 10;
         res[1] = digits[0] % 10;
         for (int i = 2; i < res.length; i++) {
-            res[i] = digits[i -1];
+            res[i] = digits[i - 1];
         }
         return res;
     }

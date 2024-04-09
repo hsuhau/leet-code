@@ -1,16 +1,14 @@
 package com.hsuhau.medium.service;
 
-import com.hsuhau.MainApplication;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import com.hsuhau.medium.MediumApplication;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import static org.junit.Assert.*;
-
-@SpringBootTest(classes = MainApplication.class)
-@RunWith(SpringRunner.class)
+@SpringBootTest(classes = MediumApplication.class)
+@ExtendWith(SpringExtension.class)
 public class AddFourNumbersTest {
 
     @Autowired

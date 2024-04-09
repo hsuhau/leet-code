@@ -1,22 +1,22 @@
 package com.hsuhau.easy.service;
 
-import com.hsuhau.MainApplication;
+import com.hsuhau.easy.EasyApplication;
 import org.junit.Assert;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-@SpringBootTest(classes = MainApplication.class)
-@RunWith(SpringRunner.class)
+@SpringBootTest(classes = EasyApplication.class)
+@ExtendWith(SpringExtension.class)
 public class BestTimeToBuyAndSellStockTest {
     @Autowired
     private BestTimeToBuyAndSellStock bestTimeToBuyAndSellStock;
 
     @Test
     public void testMaxProfit() throws Exception {
-        int result = bestTimeToBuyAndSellStock.maxProfit(new int[]{4,2,3,5,2,5});
+        int result = bestTimeToBuyAndSellStock.maxProfit(new int[]{4, 2, 3, 5, 2, 5});
         Assert.assertEquals(3, result);
     }
 }

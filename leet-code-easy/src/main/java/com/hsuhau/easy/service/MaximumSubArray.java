@@ -19,6 +19,7 @@ public class MaximumSubArray {
     /**
      * 解法一、分治法
      * todo 题解
+     *
      * @param nums
      * @return
      */
@@ -51,7 +52,7 @@ public class MaximumSubArray {
         // 计算包含左侧子序列最后一个元素的子序列最大值
         int rightCrossMax = nums[center + 1];
         int rightCrossSum = 0;
-        for (int i = center +1; i <=end ; i++) {
+        for (int i = center + 1; i <= end; i++) {
             rightCrossSum += nums[i];
             rightCrossMax = Math.max(rightCrossMax, rightCrossSum);
         }

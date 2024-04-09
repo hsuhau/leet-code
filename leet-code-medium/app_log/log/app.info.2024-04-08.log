@@ -294,3 +294,25 @@
 2024-04-08 14:56:32.660 INFO [main]c.h.medium.service.GetEqualSubstringsWithinBudgetTest.logStarted:61 -Started GetEqualSubstringsWithinBudgetTest in 1.027 seconds (JVM running for 2.174)
 2024-04-08 14:56:32.993 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:105 -[15, 8, 6, 12, 4]
 2024-04-08 14:56:32.995 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:124 -cost = 8
+2024-04-08 17:11:36.827 INFO [main]c.h.medium.service.GetEqualSubstringsWithinBudgetTest.logStarting:55 -Starting GetEqualSubstringsWithinBudgetTest on LAPTOP-ILSEUOVJ with PID 23156 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-08 17:11:36.831 INFO [main]c.h.medium.service.GetEqualSubstringsWithinBudgetTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-08 17:11:37.494 INFO [main]c.h.medium.service.GetEqualSubstringsWithinBudgetTest.logStarted:61 -Started GetEqualSubstringsWithinBudgetTest in 1.149 seconds (JVM running for 2.172)
+2024-04-08 17:11:37.868 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:105 -[1, 1, 1, 2]
+2024-04-08 17:11:37.872 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:124 -cost = 2
+2024-04-08 17:11:37.891 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:105 -[2, 2, 2, 2]
+2024-04-08 17:11:37.892 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:124 -cost = 2
+2024-04-08 17:11:37.896 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:105 -[0, 1, 1, 1]
+2024-04-08 17:11:37.897 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:124 -cost = 1
+2024-04-08 17:11:37.902 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:105 -[15, 8, 6, 12, 4]
+2024-04-08 17:11:37.903 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:124 -cost = 8
+2024-04-08 17:12:15.674 INFO [main]c.h.medium.service.GetEqualSubstringsWithinBudgetTest.logStarting:55 -Starting GetEqualSubstringsWithinBudgetTest on LAPTOP-ILSEUOVJ with PID 38932 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-08 17:12:15.676 INFO [main]c.h.medium.service.GetEqualSubstringsWithinBudgetTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-08 17:12:16.232 INFO [main]c.h.medium.service.GetEqualSubstringsWithinBudgetTest.logStarted:61 -Started GetEqualSubstringsWithinBudgetTest in 0.967 seconds (JVM running for 2.038)
+2024-04-08 17:12:16.585 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:105 -[1, 1, 1, 2]
+2024-04-08 17:12:16.588 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:124 -cost = 2
+2024-04-08 17:12:16.610 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:105 -[2, 2, 2, 2]
+2024-04-08 17:12:16.610 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:124 -cost = 2
+2024-04-08 17:12:16.615 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:105 -[0, 1, 1, 1]
+2024-04-08 17:12:16.616 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:124 -cost = 1
+2024-04-08 17:12:16.621 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:105 -[15, 8, 6, 12, 4]
+2024-04-08 17:12:16.622 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring1_wrong:124 -cost = 8

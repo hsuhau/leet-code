@@ -8,13 +8,20 @@ import java.util.List;
 
 /**
  * 47.全排列 II
- *
+ * <p>
  * 给定一个可包含重复数字的序列 nums ，按任意顺序 返回所有不重复的全排列。
  */
 
 @Service
 public class PermuteUnique {
     boolean[] vis;
+
+    public static void main(String[] args) {
+        PermuteUnique solution = new PermuteUnique();
+        int[] array = new int[]{1, 2, 3, 3, 4, 2};
+        List<List<Integer>> result = solution.permuteUnique(array);
+        System.out.println(result);
+    }
 
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
@@ -40,12 +47,5 @@ public class PermuteUnique {
             vis[i] = false;
             perm.remove(idx);
         }
-    }
-
-    public static void main(String[] args) {
-        PermuteUnique solution = new PermuteUnique();
-        int[] array = new int[]{1, 2, 3, 3, 4, 2};
-        List<List<Integer>> result = solution.permuteUnique(array);
-        System.out.println(result);
     }
 }

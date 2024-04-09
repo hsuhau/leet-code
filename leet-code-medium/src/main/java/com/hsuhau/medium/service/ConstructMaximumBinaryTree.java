@@ -1,7 +1,6 @@
 package com.hsuhau.medium.service;
 
 import com.hsuhau.common.model.TreeNode;
-
 import org.springframework.stereotype.Service;
 
 /**

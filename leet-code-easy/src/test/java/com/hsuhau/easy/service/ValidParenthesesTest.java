@@ -1,21 +1,15 @@
 package com.hsuhau.easy.service;
 
-import com.hsuhau.MainApplication;
+import com.hsuhau.easy.EasyApplication;
 import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import java.util.Map;
-
-@SpringBootTest(classes = MainApplication.class)
-@RunWith(SpringRunner.class)
+@SpringBootTest(classes = EasyApplication.class)
+@ExtendWith(SpringExtension.class)
 public class ValidParenthesesTest {
     @Autowired
     ValidParentheses validParentheses;

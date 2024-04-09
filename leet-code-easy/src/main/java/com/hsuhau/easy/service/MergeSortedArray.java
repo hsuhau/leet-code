@@ -1,6 +1,5 @@
 package com.hsuhau.easy.service;
 
-import com.alibaba.fastjson.JSONObject;
 import org.springframework.stereotype.Service;
 
 /**
@@ -34,8 +33,7 @@ public class MergeSortedArray {
      * @param nums1
      * @param m
      * @param nums2
-     * @param n
-     * todo 实现有问题，nums1并未改变
+     * @param n     todo 实现有问题，nums1并未改变
      */
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int point1 = m - 1;

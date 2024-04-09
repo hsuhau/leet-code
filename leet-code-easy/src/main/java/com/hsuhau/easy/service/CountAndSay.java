@@ -2,9 +2,9 @@ package com.hsuhau.easy.service;
 
 /**
  * 38. 外观数列
- *
+ * <p>
  * 相关标签：字符串
- *
+ * <p>
  * 「外观数列」是一个整数序列，从数字 1 开始，序列中的每一项都是对前一项的描述。前五项如下：
  * <p>
  * 1.     1
@@ -37,6 +37,7 @@ public class CountAndSay {
 
     /**
      * 递归
+     *
      * @param n
      * @return
      */

@@ -1,8 +1,8 @@
 2021-07-07 10:26:05.367 DEBUG[restartedMain]o.s.b.c.logging.ClasspathLoggingApplicationListener.onApplicationEvent:51 -Application started with classpath: [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
-2021-07-07 10:26:05.502 INFO [restartedMain]com.hsuhau.main.MainApplication.logStarting:55 -Starting MainApplication on hsuhau-laptop with PID 46330 (/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes started by hsuhau in /home/hsuhau/GitHub/microsoft/leet-code)
-2021-07-07 10:26:05.504 DEBUG[restartedMain]com.hsuhau.main.MainApplication.logStarting:56 -Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-07-07 10:26:05.505 INFO [restartedMain]com.hsuhau.main.MainApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
-2021-07-07 10:26:05.506 DEBUG[restartedMain]org.springframework.boot.SpringApplication.load:679 -Loading source class com.hsuhau.main.MainApplication
+2021-07-07 10:26:05.502 INFO [restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStarting:55 -Starting com.hsuhau.hard.HardApplication on hsuhau-laptop with PID 46330 (/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes started by hsuhau in /home/hsuhau/GitHub/microsoft/leet-code)
+2021-07-07 10:26:05.504 DEBUG[restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStarting:56 -Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-07 10:26:05.505 INFO [restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2021-07-07 10:26:05.506 DEBUG[restartedMain]org.springframework.boot.SpringApplication.load:679 -Loading source class com.hsuhau.main.com.hsuhau.hard.HardApplication
 2021-07-07 10:26:05.591 DEBUG[restartedMain]o.s.boot.context.config.ConfigFileApplicationListener.logTo:222 -Loaded config file 'file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/application.yml' (classpath:/application.yml)
 2021-07-07 10:26:05.594 DEBUG[restartedMain]org.springframework.boot.devtools.restart.ChangeableUrls.logTo:222 -Matching URLs for reloading : [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
 2021-07-07 10:26:05.595 DEBUG[restartedMain]o.s.boot.devtools.settings.DevToolsSettings.logTo:222 -Included patterns for restart : []
@@ -715,19 +715,19 @@ Unconditional classes:
 
 
 2021-07-07 10:26:07.333 DEBUG[restartedMain]o.s.core.env.PropertySourcesPropertyResolver.logKeyFound:115 -Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
-2021-07-07 10:26:07.357 INFO [restartedMain]com.hsuhau.main.MainApplication.logStarted:61 -Started MainApplication in 2.904 seconds (JVM running for 4.204)
+2021-07-07 10:26:07.357 INFO [restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStarted:61 -Started com.hsuhau.hard.HardApplication in 2.904 seconds (JVM running for 4.204)
 2021-07-07 10:26:07.366 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Creating new Restarter for thread Thread[main,5,main]
 2021-07-07 10:26:07.367 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Immediately restarting application
 2021-07-07 10:26:07.368 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@499829ee
-2021-07-07 10:26:07.369 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Starting application com.hsuhau.main.MainApplication with URLs [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
+2021-07-07 10:26:07.369 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Starting application com.hsuhau.main.com.hsuhau.hard.HardApplication with URLs [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
 2021-07-07 10:26:07.386 DEBUG[SpringContextShutdownHook]o.s.c.annotation.AnnotationConfigApplicationContext.doClose:1005 -Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@72abe6ec, started on Wed Jul 07 10:26:05 CST 2021
 2021-07-07 10:26:07.387 DEBUG[SpringContextShutdownHook]o.s.core.env.PropertySourcesPropertyResolver.logKeyFound:115 -Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
 2021-07-07 10:26:07.396 DEBUG[SpringContextShutdownHook]o.s.jmx.export.annotation.AnnotationMBeanExporter.destroy:452 -Unregistering JMX-exposed beans on shutdown
 2021-07-07 10:31:58.338 DEBUG[restartedMain]o.s.b.c.logging.ClasspathLoggingApplicationListener.onApplicationEvent:51 -Application started with classpath: [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
-2021-07-07 10:31:58.379 INFO [restartedMain]com.hsuhau.main.MainApplication.logStarting:55 -Starting MainApplication on hsuhau-laptop with PID 46646 (/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes started by hsuhau in /home/hsuhau/GitHub/microsoft/leet-code)
-2021-07-07 10:31:58.380 DEBUG[restartedMain]com.hsuhau.main.MainApplication.logStarting:56 -Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-07-07 10:31:58.380 INFO [restartedMain]com.hsuhau.main.MainApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
-2021-07-07 10:31:58.380 DEBUG[restartedMain]org.springframework.boot.SpringApplication.load:679 -Loading source class com.hsuhau.main.MainApplication
+2021-07-07 10:31:58.379 INFO [restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStarting:55 -Starting com.hsuhau.hard.HardApplication on hsuhau-laptop with PID 46646 (/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes started by hsuhau in /home/hsuhau/GitHub/microsoft/leet-code)
+2021-07-07 10:31:58.380 DEBUG[restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStarting:56 -Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-07 10:31:58.380 INFO [restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2021-07-07 10:31:58.380 DEBUG[restartedMain]org.springframework.boot.SpringApplication.load:679 -Loading source class com.hsuhau.main.com.hsuhau.hard.HardApplication
 2021-07-07 10:31:58.424 DEBUG[restartedMain]o.s.boot.context.config.ConfigFileApplicationListener.logTo:222 -Loaded config file 'file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/application.yml' (classpath:/application.yml)
 2021-07-07 10:31:58.425 DEBUG[restartedMain]org.springframework.boot.devtools.restart.ChangeableUrls.logTo:222 -Matching URLs for reloading : [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
 2021-07-07 10:31:58.425 DEBUG[restartedMain]o.s.boot.devtools.settings.DevToolsSettings.logTo:222 -Included patterns for restart : []
@@ -1440,19 +1440,19 @@ Unconditional classes:
 
 
 2021-07-07 10:31:58.928 DEBUG[restartedMain]o.s.core.env.PropertySourcesPropertyResolver.logKeyFound:115 -Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
-2021-07-07 10:31:58.932 INFO [restartedMain]com.hsuhau.main.MainApplication.logStarted:61 -Started MainApplication in 0.815 seconds (JVM running for 1.228)
+2021-07-07 10:31:58.932 INFO [restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStarted:61 -Started com.hsuhau.hard.HardApplication in 0.815 seconds (JVM running for 1.228)
 2021-07-07 10:31:58.933 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Creating new Restarter for thread Thread[main,5,main]
 2021-07-07 10:31:58.934 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Immediately restarting application
 2021-07-07 10:31:58.934 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@742d6054
-2021-07-07 10:31:58.934 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Starting application com.hsuhau.main.MainApplication with URLs [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
+2021-07-07 10:31:58.934 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Starting application com.hsuhau.main.com.hsuhau.hard.HardApplication with URLs [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
 2021-07-07 10:31:58.941 DEBUG[SpringContextShutdownHook]o.s.c.annotation.AnnotationConfigApplicationContext.doClose:1005 -Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1998264b, started on Wed Jul 07 10:31:58 CST 2021
 2021-07-07 10:31:58.942 DEBUG[SpringContextShutdownHook]o.s.core.env.PropertySourcesPropertyResolver.logKeyFound:115 -Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
 2021-07-07 10:31:58.944 DEBUG[SpringContextShutdownHook]o.s.jmx.export.annotation.AnnotationMBeanExporter.destroy:452 -Unregistering JMX-exposed beans on shutdown
 2021-07-07 10:32:06.453 DEBUG[restartedMain]o.s.b.c.logging.ClasspathLoggingApplicationListener.onApplicationEvent:51 -Application started with classpath: [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
-2021-07-07 10:32:06.511 INFO [restartedMain]com.hsuhau.main.MainApplication.logStarting:55 -Starting MainApplication on hsuhau-laptop with PID 46715 (/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes started by hsuhau in /home/hsuhau/GitHub/microsoft/leet-code)
-2021-07-07 10:32:06.511 DEBUG[restartedMain]com.hsuhau.main.MainApplication.logStarting:56 -Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-07-07 10:32:06.512 INFO [restartedMain]com.hsuhau.main.MainApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
-2021-07-07 10:32:06.512 DEBUG[restartedMain]org.springframework.boot.SpringApplication.load:679 -Loading source class com.hsuhau.main.MainApplication
+2021-07-07 10:32:06.511 INFO [restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStarting:55 -Starting com.hsuhau.hard.HardApplication on hsuhau-laptop with PID 46715 (/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes started by hsuhau in /home/hsuhau/GitHub/microsoft/leet-code)
+2021-07-07 10:32:06.511 DEBUG[restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStarting:56 -Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-07 10:32:06.512 INFO [restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2021-07-07 10:32:06.512 DEBUG[restartedMain]org.springframework.boot.SpringApplication.load:679 -Loading source class com.hsuhau.main.com.hsuhau.hard.HardApplication
 2021-07-07 10:32:06.539 DEBUG[restartedMain]o.s.boot.context.config.ConfigFileApplicationListener.logTo:222 -Loaded config file 'file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/application.yml' (classpath:/application.yml)
 2021-07-07 10:32:06.540 DEBUG[restartedMain]org.springframework.boot.devtools.restart.ChangeableUrls.logTo:222 -Matching URLs for reloading : [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
 2021-07-07 10:32:06.540 DEBUG[restartedMain]o.s.boot.devtools.settings.DevToolsSettings.logTo:222 -Included patterns for restart : []
@@ -2165,19 +2165,19 @@ Unconditional classes:
 
 
 2021-07-07 10:32:06.898 DEBUG[restartedMain]o.s.core.env.PropertySourcesPropertyResolver.logKeyFound:115 -Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
-2021-07-07 10:32:06.901 INFO [restartedMain]com.hsuhau.main.MainApplication.logStarted:61 -Started MainApplication in 0.666 seconds (JVM running for 1.028)
+2021-07-07 10:32:06.901 INFO [restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStarted:61 -Started com.hsuhau.hard.HardApplication in 0.666 seconds (JVM running for 1.028)
 2021-07-07 10:32:06.902 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Creating new Restarter for thread Thread[main,5,main]
 2021-07-07 10:32:06.903 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Immediately restarting application
 2021-07-07 10:32:06.903 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@742d6054
-2021-07-07 10:32:06.903 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Starting application com.hsuhau.main.MainApplication with URLs [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
+2021-07-07 10:32:06.903 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Starting application com.hsuhau.main.com.hsuhau.hard.HardApplication with URLs [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
 2021-07-07 10:32:06.907 DEBUG[SpringContextShutdownHook]o.s.c.annotation.AnnotationConfigApplicationContext.doClose:1005 -Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1bae37e9, started on Wed Jul 07 10:32:06 CST 2021
 2021-07-07 10:32:06.907 DEBUG[SpringContextShutdownHook]o.s.core.env.PropertySourcesPropertyResolver.logKeyFound:115 -Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
 2021-07-07 10:32:06.909 DEBUG[SpringContextShutdownHook]o.s.jmx.export.annotation.AnnotationMBeanExporter.destroy:452 -Unregistering JMX-exposed beans on shutdown
 2021-07-07 10:32:54.772 DEBUG[restartedMain]o.s.b.c.logging.ClasspathLoggingApplicationListener.onApplicationEvent:51 -Application started with classpath: [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
-2021-07-07 10:32:54.821 INFO [restartedMain]com.hsuhau.main.MainApplication.logStarting:55 -Starting MainApplication on hsuhau-laptop with PID 46841 (/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes started by hsuhau in /home/hsuhau/GitHub/microsoft/leet-code)
-2021-07-07 10:32:54.822 DEBUG[restartedMain]com.hsuhau.main.MainApplication.logStarting:56 -Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-07-07 10:32:54.822 INFO [restartedMain]com.hsuhau.main.MainApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
-2021-07-07 10:32:54.822 DEBUG[restartedMain]org.springframework.boot.SpringApplication.load:679 -Loading source class com.hsuhau.main.MainApplication
+2021-07-07 10:32:54.821 INFO [restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStarting:55 -Starting com.hsuhau.hard.HardApplication on hsuhau-laptop with PID 46841 (/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes started by hsuhau in /home/hsuhau/GitHub/microsoft/leet-code)
+2021-07-07 10:32:54.822 DEBUG[restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStarting:56 -Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-07 10:32:54.822 INFO [restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2021-07-07 10:32:54.822 DEBUG[restartedMain]org.springframework.boot.SpringApplication.load:679 -Loading source class com.hsuhau.main.com.hsuhau.hard.HardApplication
 2021-07-07 10:32:54.851 DEBUG[restartedMain]o.s.boot.context.config.ConfigFileApplicationListener.logTo:222 -Loaded config file 'file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/application.yml' (classpath:/application.yml)
 2021-07-07 10:32:54.852 DEBUG[restartedMain]org.springframework.boot.devtools.restart.ChangeableUrls.logTo:222 -Matching URLs for reloading : [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
 2021-07-07 10:32:54.852 DEBUG[restartedMain]o.s.boot.devtools.settings.DevToolsSettings.logTo:222 -Included patterns for restart : []
@@ -2890,11 +2890,11 @@ Unconditional classes:
 
 
 2021-07-07 10:32:55.224 DEBUG[restartedMain]o.s.core.env.PropertySourcesPropertyResolver.logKeyFound:115 -Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
-2021-07-07 10:32:55.227 INFO [restartedMain]com.hsuhau.main.MainApplication.logStarted:61 -Started MainApplication in 0.663 seconds (JVM running for 1.019)
+2021-07-07 10:32:55.227 INFO [restartedMain]com.hsuhau.main.com.hsuhau.hard.HardApplication.logStarted:61 -Started com.hsuhau.hard.HardApplication in 0.663 seconds (JVM running for 1.019)
 2021-07-07 10:32:55.228 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Creating new Restarter for thread Thread[main,5,main]
 2021-07-07 10:32:55.228 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Immediately restarting application
 2021-07-07 10:32:55.228 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@73354208
-2021-07-07 10:32:55.229 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Starting application com.hsuhau.main.MainApplication with URLs [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
+2021-07-07 10:32:55.229 DEBUG[restartedMain]org.springframework.boot.devtools.restart.Restarter.logTo:222 -Starting application com.hsuhau.main.com.hsuhau.hard.HardApplication with URLs [file:/home/hsuhau/GitHub/microsoft/leet-code/leet-code-main/target/classes/]
 2021-07-07 10:32:55.232 DEBUG[SpringContextShutdownHook]o.s.c.annotation.AnnotationConfigApplicationContext.doClose:1005 -Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@32a378fd, started on Wed Jul 07 10:32:54 CST 2021
 2021-07-07 10:32:55.233 DEBUG[SpringContextShutdownHook]o.s.core.env.PropertySourcesPropertyResolver.logKeyFound:115 -Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
 2021-07-07 10:32:55.235 DEBUG[SpringContextShutdownHook]o.s.jmx.export.annotation.AnnotationMBeanExporter.destroy:452 -Unregistering JMX-exposed beans on shutdown

@@ -66,7 +66,7 @@ public class GetEqualSubstringsWithinBudget {
      * @param maxCost
      * @return
      */
-    public int equalSubstring0_wrong(String s, String t, int maxCost) {
+    public int equalSubstring_by_me_wrong_0(String s, String t, int maxCost) {
         int length = s.length();
         int[] costs = new int[length];
         for (int i = 0; i < length; i++) {
@@ -94,7 +94,7 @@ public class GetEqualSubstringsWithinBudget {
 
 
     //    fixme
-    public int equalSubstring1_wrong(String s, String t, int maxCost) {
+    public int equalSubstring_by_me_wrong_1(String s, String t, int maxCost) {
         int length = s.length();
         int[] costs = new int[length];
         for (int i = 0; i < length; i++) {
@@ -131,6 +131,82 @@ public class GetEqualSubstringsWithinBudget {
     }
 
     /**
-     * todo 滑动窗口
+     * 暴力解法
      */
+    public int equalSubstring_by_me_fixed_1(String s, String t, int maxCost) {
+
+        int length = s.length();
+        int[] costs = new int[length];
+        for (int i = 0; i < length; i++) {
+            int cost = Math.abs(s.charAt(i) - t.charAt(i));
+            costs[i] = cost;
+        }
+
+        log.info(Arrays.toString(costs));
+
+        int left = 0;
+        int right = 0;
+        int totalCost = 0;
+        int max = 0;
+        int now = 0;
+        for (int i = 0; i <= right; i++) {
+            if (right >= costs.length) {
+                break;
+            }
+            int cost = costs[right];
+            totalCost += cost;
+            if (totalCost <= maxCost) {
+                now++;
+                right++;
+                i--;
+                if (max < now) {
+                    max = now;
+                }
+            } else {
+                right = ++left;
+                totalCost = 0;
+                now = 0;
+                log.info("cost = " + cost);
+            }
+        }
+        return max;
+    }
+
+
+    /**
+     * 滑动窗口？暴力
+     *
+     * @param s
+     * @param t
+     * @param maxCost
+     * @return
+     */
+    public int equalSubstring_sliding_window_algorithm_like_wrong(String s, String t, int maxCost) {
+        int length = s.length();
+        int[] costs = new int[length];
+        for (int i = 0; i < length; i++) {
+            int cost = Math.abs(s.charAt(i) - t.charAt(i));
+            costs[i] = cost;
+        }
+
+        int left = 0;
+        int totalCost = 0;
+        int max = 0;
+        for (int right = 0; right < costs.length; right++) {
+            if (right < left) {
+                continue;
+            }
+            int cost = costs[right];
+            totalCost += cost;
+            if (totalCost <= maxCost) {
+                if (max < right - left + 1) {
+                    max = right - left + 1;
+                }
+            } else {
+                left++;
+                totalCost -= cost;
+            }
+        }
+        return max;
+    }
 }

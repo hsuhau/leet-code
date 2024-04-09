@@ -35,14 +35,15 @@ import org.springframework.stereotype.Service;
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * int val;
+ * ListNode next;
+ * ListNode() {}
+ * ListNode(int val) { this.val = val; }
+ * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
 @Service
@@ -53,7 +54,7 @@ class RotateList {
 
         int n = 0;
 
-        while (iter.next != null){
+        while (iter.next != null) {
             iter = iter.next;
             n++;
         }
