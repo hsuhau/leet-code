@@ -39,10 +39,17 @@ class GetEqualSubstringsWithinBudgetTest {
         Assertions.assertEquals(expected, getEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1(s, t, maxCost));
     }
 
+    @DisplayName("1208.尽可能使字符串相等 错误解答")
+    @ParameterizedTest
+    @CsvSource({"abcd,bcdf,3,3", "abcd,cdef,3,1", "abcd,acde,0,1", "krrgw,zjxss,19,2", "pxezla,loewbi,25,4"})
+    void equalSubstring_sliding_window_algorithm_like_wrong(String s, String t, int maxCost, int expected) {
+        Assertions.assertEquals(expected, getEqualSubstringsWithinBudget.equalSubstring_sliding_window_algorithm_like_wrong(s, t, maxCost));
+    }
+
     @DisplayName("1208.尽可能使字符串相等 滑动窗口算法")
     @ParameterizedTest
     @CsvSource({"abcd,bcdf,3,3", "abcd,cdef,3,1", "abcd,acde,0,1", "krrgw,zjxss,19,2", "pxezla,loewbi,25,4"})
     void equalSubstring_sliding_window_algorithm(String s, String t, int maxCost, int expected) {
-        Assertions.assertEquals(expected, getEqualSubstringsWithinBudget.equalSubstring_sliding_window_algorithm_like_wrong(s, t, maxCost));
+        Assertions.assertEquals(expected, getEqualSubstringsWithinBudget.equalSubstring_sliding_window_algorithm(s, t, maxCost));
     }
 }

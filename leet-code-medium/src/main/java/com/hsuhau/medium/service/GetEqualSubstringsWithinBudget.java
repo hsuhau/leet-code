@@ -209,4 +209,31 @@ public class GetEqualSubstringsWithinBudget {
         }
         return max;
     }
+
+
+    public int equalSubstring_sliding_window_algorithm(String s, String t, int maxCost) {
+        int length = s.length();
+        int[] costs = new int[length];
+        for (int i = 0; i < length; i++) {
+            int cost = Math.abs(s.charAt(i) - t.charAt(i));
+            costs[i] = cost;
+        }
+
+        int left = 0;
+        int right = 0;
+        int totalCost = 0;
+        int max = 0;
+
+        while (right < costs.length) {
+            totalCost += costs[right];
+
+            while (totalCost > maxCost) {
+                totalCost -= costs[left];
+                left++;
+            }
+            max  = Math.max(max , right - left + 1);
+            right++;
+        }
+        return max;
+    }
 }
