@@ -410,3 +410,6 @@
 2024-04-09 15:33:43.107 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_1:124 -cost = 1
 2024-04-09 15:33:43.112 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_1:105 -[15, 8, 6, 12, 4]
 2024-04-09 15:33:43.112 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_1:124 -cost = 8
+2024-04-09 16:41:01.483 INFO [main]com.hsuhau.medium.service.AddFourNumbersTest.logStarting:55 -Starting AddFourNumbersTest on LAPTOP-ILSEUOVJ with PID 3480 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-09 16:41:01.486 INFO [main]com.hsuhau.medium.service.AddFourNumbersTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-09 16:41:02.272 INFO [main]com.hsuhau.medium.service.AddFourNumbersTest.logStarted:61 -Started AddFourNumbersTest in 1.339 seconds (JVM running for 2.524)

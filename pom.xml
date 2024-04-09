@@ -52,6 +52,10 @@
                     <artifactId>junit-jupiter</artifactId>
                     <groupId>org.junit.jupiter</groupId>
                 </exclusion>
+                <exclusion>
+                    <groupId>junit</groupId>
+                    <artifactId>org.junit</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
 
