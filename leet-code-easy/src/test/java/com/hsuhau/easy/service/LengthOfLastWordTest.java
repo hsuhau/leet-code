@@ -1,9 +1,10 @@
 package com.hsuhau.easy.service;
 
 import com.hsuhau.easy.EasyApplication;
-import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
@@ -14,10 +15,11 @@ public class LengthOfLastWordTest {
     @Autowired
     private LengthOfLastWord lengthOfLastWord;
 
-    @Test
-    public void testLengthOfLastWord() throws Exception {
-        int result = lengthOfLastWord.lengthOfLastWord("");
-        Assert.assertEquals(0, result);
+    @ParameterizedTest
+    @CsvSource({"'', 0"})
+    public void testLengthOfLastWord(String s, int expected) throws Exception {
+        int result = lengthOfLastWord.lengthOfLastWord(s);
+        Assertions.assertEquals(expected, result);
     }
 }
 

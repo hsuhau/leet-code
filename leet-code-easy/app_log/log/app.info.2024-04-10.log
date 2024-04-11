@@ -1,0 +1,6 @@
+2024-04-10 09:02:18.899 INFO [main]com.hsuhau.easy.service.MaximumSubArrayTest.logStarting:55 -Starting MaximumSubArrayTest on LAPTOP-ILSEUOVJ with PID 7024 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-10 09:02:18.940 INFO [main]com.hsuhau.easy.service.MaximumSubArrayTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-10 09:02:19.647 INFO [main]com.hsuhau.easy.service.MaximumSubArrayTest.logStarted:61 -Started MaximumSubArrayTest in 1.13 seconds (JVM running for 2.851)
+2024-04-10 09:04:11.672 INFO [main]com.hsuhau.easy.service.MaximumSubArrayTest.logStarting:55 -Starting MaximumSubArrayTest on LAPTOP-ILSEUOVJ with PID 2132 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-10 09:04:11.718 INFO [main]com.hsuhau.easy.service.MaximumSubArrayTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-10 09:04:12.229 INFO [main]com.hsuhau.easy.service.MaximumSubArrayTest.logStarted:61 -Started MaximumSubArrayTest in 0.941 seconds (JVM running for 1.882)

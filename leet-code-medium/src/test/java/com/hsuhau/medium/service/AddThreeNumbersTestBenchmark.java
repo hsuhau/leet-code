@@ -77,7 +77,7 @@ public class AddThreeNumbersTestBenchmark {
     @Test
     @Benchmark
     public void threeSum_set() {
-        List<List<Integer>> actual = addThreeNumbers.threeSum(new int[]{-1, 0, 1, 2, -1, -4});
+        List<List<Integer>> actual = addThreeNumbers.threeSum_set(new int[]{-1, 0, 1, 2, -1, -4});
         List<List<Integer>> expect = List.of(
                 List.of(-1, -1, 2),
                 List.of(-1, 0, 1)

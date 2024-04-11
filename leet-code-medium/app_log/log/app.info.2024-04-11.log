@@ -1,0 +1,79 @@
+2024-04-11 14:07:15.868 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStarting:55 -Starting ValidateBinarySearchTreeTest on LAPTOP-ILSEUOVJ with PID 23828 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 14:07:15.870 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:07:16.517 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStarted:61 -Started ValidateBinarySearchTreeTest in 1.142 seconds (JVM running for 2.195)
+2024-04-11 14:07:48.604 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStarting:55 -Starting ValidateBinarySearchTreeTest on LAPTOP-ILSEUOVJ with PID 2276 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 14:07:48.650 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:07:49.268 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStarted:61 -Started ValidateBinarySearchTreeTest in 1.044 seconds (JVM running for 1.977)
+2024-04-11 14:08:00.399 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStarting:55 -Starting ValidateBinarySearchTreeTest on LAPTOP-ILSEUOVJ with PID 33868 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 14:08:00.401 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:08:00.962 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStarted:61 -Started ValidateBinarySearchTreeTest in 0.943 seconds (JVM running for 1.919)
+2024-04-11 14:10:56.098 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStarting:55 -Starting ValidateBinarySearchTreeTest on LAPTOP-ILSEUOVJ with PID 26216 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 14:10:56.100 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:10:56.712 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStarted:61 -Started ValidateBinarySearchTreeTest in 1.067 seconds (JVM running for 1.974)
+2024-04-11 14:13:22.585 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStarting:55 -Starting ValidateBinarySearchTreeTest on LAPTOP-ILSEUOVJ with PID 36028 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 14:13:22.587 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:13:23.182 INFO [main]com.hsuhau.medium.service.ValidateBinarySearchTreeTest.logStarted:61 -Started ValidateBinarySearchTreeTest in 0.998 seconds (JVM running for 2.05)
+2024-04-11 14:16:50.412 INFO [main]com.hsuhau.medium.service.RotateImageTest.logStarting:55 -Starting RotateImageTest on LAPTOP-ILSEUOVJ with PID 34076 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 14:16:50.414 INFO [main]com.hsuhau.medium.service.RotateImageTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:16:51.015 INFO [main]com.hsuhau.medium.service.RotateImageTest.logStarted:61 -Started RotateImageTest in 0.996 seconds (JVM running for 1.917)
+2024-04-11 14:28:12.140 INFO [main]com.hsuhau.medium.service.PermuteUniqueTest.logStarting:55 -Starting PermuteUniqueTest on LAPTOP-ILSEUOVJ with PID 15664 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 14:28:12.142 INFO [main]com.hsuhau.medium.service.PermuteUniqueTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:28:12.723 INFO [main]com.hsuhau.medium.service.PermuteUniqueTest.logStarted:61 -Started PermuteUniqueTest in 0.987 seconds (JVM running for 1.936)
+2024-04-11 14:36:41.733 INFO [main]c.h.medium.service.GetEqualSubstringsWithinBudgetTest.logStarting:55 -Starting GetEqualSubstringsWithinBudgetTest on LAPTOP-ILSEUOVJ with PID 31756 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 14:36:41.735 INFO [main]c.h.medium.service.GetEqualSubstringsWithinBudgetTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:36:42.373 INFO [main]c.h.medium.service.GetEqualSubstringsWithinBudgetTest.logStarted:61 -Started GetEqualSubstringsWithinBudgetTest in 1.04 seconds (JVM running for 2.046)
+2024-04-11 14:36:42.687 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_0:76 -[1, 1, 1, 2]
+2024-04-11 14:36:42.691 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_0:76 -[2, 2, 2, 2]
+2024-04-11 14:36:42.694 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_0:76 -[0, 1, 1, 1]
+2024-04-11 14:36:42.698 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_0:76 -[15, 8, 6, 12, 4]
+2024-04-11 14:36:42.703 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_0:76 -[4, 9, 0, 3, 10, 8]
+2024-04-11 14:36:42.726 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:145 -[1, 1, 1, 2]
+2024-04-11 14:36:42.729 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 2
+2024-04-11 14:36:42.729 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 2
+2024-04-11 14:36:42.732 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:145 -[2, 2, 2, 2]
+2024-04-11 14:36:42.732 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 2
+2024-04-11 14:36:42.732 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 2
+2024-04-11 14:36:42.732 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 2
+2024-04-11 14:36:42.735 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:145 -[0, 1, 1, 1]
+2024-04-11 14:36:42.736 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 1
+2024-04-11 14:36:42.736 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 1
+2024-04-11 14:36:42.736 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 1
+2024-04-11 14:36:42.736 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 1
+2024-04-11 14:36:42.739 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:145 -[15, 8, 6, 12, 4]
+2024-04-11 14:36:42.739 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 8
+2024-04-11 14:36:42.739 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 12
+2024-04-11 14:36:42.739 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 4
+2024-04-11 14:36:42.743 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:145 -[4, 9, 0, 3, 10, 8]
+2024-04-11 14:36:42.743 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 10
+2024-04-11 14:36:42.743 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_fixed_1:169 -cost = 8
+2024-04-11 14:36:42.747 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_1:105 -[1, 1, 1, 2]
+2024-04-11 14:36:45.912 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_1:124 -cost = 2
+2024-04-11 14:36:45.920 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_1:105 -[2, 2, 2, 2]
+2024-04-11 14:36:45.921 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_1:124 -cost = 2
+2024-04-11 14:36:45.924 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_1:105 -[0, 1, 1, 1]
+2024-04-11 14:36:45.924 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_1:124 -cost = 1
+2024-04-11 14:36:45.928 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_1:105 -[15, 8, 6, 12, 4]
+2024-04-11 14:36:45.928 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_1:124 -cost = 8
+2024-04-11 14:36:45.932 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_1:105 -[4, 9, 0, 3, 10, 8]
+2024-04-11 14:36:45.933 INFO [main]com.hsuhau.medium.service.GetEqualSubstringsWithinBudget.equalSubstring_by_me_wrong_1:124 -cost = 10
+2024-04-11 15:34:57.856 INFO [main]com.hsuhau.medium.service.AddTwoNumbersTest.logStarting:55 -Starting AddTwoNumbersTest on LAPTOP-ILSEUOVJ with PID 36896 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 15:34:57.859 INFO [main]com.hsuhau.medium.service.AddTwoNumbersTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:34:58.481 INFO [main]com.hsuhau.medium.service.AddTwoNumbersTest.logStarted:61 -Started AddTwoNumbersTest in 1.052 seconds (JVM running for 2.143)
+2024-04-11 15:35:24.359 INFO [main]com.hsuhau.medium.service.AddTwoNumbersTest.logStarting:55 -Starting AddTwoNumbersTest on LAPTOP-ILSEUOVJ with PID 22796 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 15:35:24.360 INFO [main]com.hsuhau.medium.service.AddTwoNumbersTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:35:24.963 INFO [main]com.hsuhau.medium.service.AddTwoNumbersTest.logStarted:61 -Started AddTwoNumbersTest in 0.984 seconds (JVM running for 2.051)
+2024-04-11 15:41:51.119 INFO [main]com.hsuhau.medium.service.AddFourNumbersTest.logStarting:55 -Starting AddFourNumbersTest on LAPTOP-ILSEUOVJ with PID 36104 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 15:41:51.120 INFO [main]com.hsuhau.medium.service.AddFourNumbersTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:41:51.703 INFO [main]com.hsuhau.medium.service.AddFourNumbersTest.logStarted:61 -Started AddFourNumbersTest in 0.997 seconds (JVM running for 2.054)
+2024-04-11 15:45:09.553 INFO [main]com.hsuhau.medium.service.AddFourNumbersTest.logStarting:55 -Starting AddFourNumbersTest on LAPTOP-ILSEUOVJ with PID 36904 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 15:45:09.554 INFO [main]com.hsuhau.medium.service.AddFourNumbersTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:45:10.111 INFO [main]com.hsuhau.medium.service.AddFourNumbersTest.logStarted:61 -Started AddFourNumbersTest in 0.946 seconds (JVM running for 1.881)
+2024-04-11 15:47:36.057 INFO [main]com.hsuhau.medium.service.LengthOfLongestSubstringTest.logStarting:55 -Starting LengthOfLongestSubstringTest on LAPTOP-ILSEUOVJ with PID 36328 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 15:47:36.058 INFO [main]com.hsuhau.medium.service.LengthOfLongestSubstringTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:47:36.651 INFO [main]com.hsuhau.medium.service.LengthOfLongestSubstringTest.logStarted:61 -Started LengthOfLongestSubstringTest in 0.987 seconds (JVM running for 2.08)
+2024-04-11 15:47:53.909 INFO [main]com.hsuhau.medium.service.LengthOfLongestSubstringTest.logStarting:55 -Starting LengthOfLongestSubstringTest on LAPTOP-ILSEUOVJ with PID 28248 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 15:47:53.910 INFO [main]com.hsuhau.medium.service.LengthOfLongestSubstringTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:47:54.509 INFO [main]com.hsuhau.medium.service.LengthOfLongestSubstringTest.logStarted:61 -Started LengthOfLongestSubstringTest in 0.995 seconds (JVM running for 2.025)
+2024-04-11 15:56:04.198 INFO [main]com.hsuhau.medium.service.RotateListTest.logStarting:55 -Starting RotateListTest on LAPTOP-ILSEUOVJ with PID 7532 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-medium)
+2024-04-11 15:56:04.199 INFO [main]com.hsuhau.medium.service.RotateListTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:56:04.752 INFO [main]com.hsuhau.medium.service.RotateListTest.logStarted:61 -Started RotateListTest in 0.933 seconds (JVM running for 1.89)

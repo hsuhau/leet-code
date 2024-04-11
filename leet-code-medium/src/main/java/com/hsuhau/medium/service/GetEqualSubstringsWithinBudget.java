@@ -231,7 +231,7 @@ public class GetEqualSubstringsWithinBudget {
                 totalCost -= costs[left];
                 left++;
             }
-            max  = Math.max(max , right - left + 1);
+            max = Math.max(max, right - left + 1);
             right++;
         }
         return max;

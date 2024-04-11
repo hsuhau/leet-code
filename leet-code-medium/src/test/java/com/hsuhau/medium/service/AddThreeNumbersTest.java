@@ -1,7 +1,7 @@
 package com.hsuhau.medium.service;
 
 import com.hsuhau.medium.MediumApplication;
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -37,13 +37,13 @@ public class AddThreeNumbersTest {
     @ParameterizedTest
     @MethodSource("threeSumTestData")
     public void threeSum(int[] nums, List<List<Integer>> expected) {
-        Assert.assertEquals(expected, addThreeNumbers.threeSum(nums));
+        Assertions.assertEquals(expected, addThreeNumbers.threeSum(nums));
     }
 
     @ParameterizedTest
     @MethodSource("threeSumTestData")
     public void threeSum_set(int[] nums, List<List<Integer>> expected) {
-        Assert.assertEquals(expected, addThreeNumbers.threeSum_set(nums));
+        Assertions.assertEquals(expected, addThreeNumbers.threeSum_set(nums));
     }
 
 }

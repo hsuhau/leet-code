@@ -16,13 +16,6 @@ import java.util.List;
 public class PermuteUnique {
     boolean[] vis;
 
-    public static void main(String[] args) {
-        PermuteUnique solution = new PermuteUnique();
-        int[] array = new int[]{1, 2, 3, 3, 4, 2};
-        List<List<Integer>> result = solution.permuteUnique(array);
-        System.out.println(result);
-    }
-
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
         List<Integer> perm = new ArrayList<>();

@@ -50,6 +50,13 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class RemoveDuplicatesFromSortedArray {
+
+    /**
+     * fixme
+     *
+     * @param nums
+     * @return
+     */
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0) return 0;
         int i = 0;

@@ -1,9 +1,10 @@
 package com.hsuhau.easy.service;
 
 import com.hsuhau.easy.EasyApplication;
-import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
@@ -14,10 +15,11 @@ public class FactorialTrailingZeroesTest {
     @Autowired
     private FactorialTrailingZeroes factorialTrailingZeroes;
 
-    @Test
-    public void testTrailingZeroes() throws Exception {
-        int result = factorialTrailingZeroes.trailingZeroes(30);
-        Assert.assertEquals(7, result);
+    @ParameterizedTest
+    @CsvSource({"30, 7"})
+    public void testTrailingZeroes(int n, int expected) throws Exception {
+        int result = factorialTrailingZeroes.trailingZeroes(n);
+        Assertions.assertEquals(expected, result);
     }
 }
 

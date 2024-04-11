@@ -1,0 +1,120 @@
+2024-04-11 14:40:25.034 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStarting:55 -Starting ValidParenthesesTest on LAPTOP-ILSEUOVJ with PID 2064 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 14:40:25.036 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:40:25.644 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStarted:61 -Started ValidParenthesesTest in 1.069 seconds (JVM running for 2.087)
+2024-04-11 14:42:03.581 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStarting:55 -Starting ValidParenthesesTest on LAPTOP-ILSEUOVJ with PID 19796 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 14:42:03.582 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:42:04.187 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStarted:61 -Started ValidParenthesesTest in 0.998 seconds (JVM running for 2.085)
+2024-04-11 14:43:32.764 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStarting:55 -Starting ValidParenthesesTest on LAPTOP-ILSEUOVJ with PID 32216 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 14:43:32.766 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:43:33.306 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStarted:61 -Started ValidParenthesesTest in 0.932 seconds (JVM running for 1.887)
+2024-04-11 14:44:04.650 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStarting:55 -Starting ValidParenthesesTest on LAPTOP-ILSEUOVJ with PID 22552 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 14:44:04.653 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:44:05.216 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStarted:61 -Started ValidParenthesesTest in 0.946 seconds (JVM running for 1.839)
+2024-04-11 14:44:32.545 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStarting:55 -Starting ValidParenthesesTest on LAPTOP-ILSEUOVJ with PID 33808 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 14:44:32.546 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:44:33.083 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStarted:61 -Started ValidParenthesesTest in 0.952 seconds (JVM running for 2.021)
+2024-04-11 14:44:54.249 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStarting:55 -Starting ValidParenthesesTest on LAPTOP-ILSEUOVJ with PID 35092 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 14:44:54.250 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:44:54.808 INFO [main]com.hsuhau.easy.service.ValidParenthesesTest.logStarted:61 -Started ValidParenthesesTest in 0.944 seconds (JVM running for 2.048)
+2024-04-11 14:47:20.546 INFO [main]com.hsuhau.easy.service.SqrtxTest.logStarting:55 -Starting SqrtxTest on LAPTOP-ILSEUOVJ with PID 8388 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 14:47:20.549 INFO [main]com.hsuhau.easy.service.SqrtxTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:47:21.144 INFO [main]com.hsuhau.easy.service.SqrtxTest.logStarted:61 -Started SqrtxTest in 1.019 seconds (JVM running for 2.09)
+2024-04-11 14:54:51.094 INFO [main]com.hsuhau.easy.service.SearchInsertPositionTest.logStarting:55 -Starting SearchInsertPositionTest on LAPTOP-ILSEUOVJ with PID 29196 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 14:54:51.096 INFO [main]com.hsuhau.easy.service.SearchInsertPositionTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:54:51.662 INFO [main]com.hsuhau.easy.service.SearchInsertPositionTest.logStarted:61 -Started SearchInsertPositionTest in 0.965 seconds (JVM running for 1.919)
+2024-04-11 14:57:31.252 INFO [main]com.hsuhau.easy.service.ReverseIntegerTest.logStarting:55 -Starting ReverseIntegerTest on LAPTOP-ILSEUOVJ with PID 5744 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 14:57:31.276 INFO [main]com.hsuhau.easy.service.ReverseIntegerTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 14:57:31.812 INFO [main]com.hsuhau.easy.service.ReverseIntegerTest.logStarted:61 -Started ReverseIntegerTest in 0.932 seconds (JVM running for 2.058)
+2024-04-11 15:02:14.543 INFO [main]com.hsuhau.easy.service.ReplaceSpaceTest.logStarting:55 -Starting ReplaceSpaceTest on LAPTOP-ILSEUOVJ with PID 29316 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:02:14.546 INFO [main]com.hsuhau.easy.service.ReplaceSpaceTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:02:15.171 INFO [main]com.hsuhau.easy.service.ReplaceSpaceTest.logStarted:61 -Started ReplaceSpaceTest in 1.084 seconds (JVM running for 2.011)
+2024-04-11 15:06:35.157 INFO [main]com.hsuhau.easy.service.RemoveElementTest.logStarting:55 -Starting RemoveElementTest on LAPTOP-ILSEUOVJ with PID 33048 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:06:35.159 INFO [main]com.hsuhau.easy.service.RemoveElementTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:06:35.716 INFO [main]com.hsuhau.easy.service.RemoveElementTest.logStarted:61 -Started RemoveElementTest in 0.962 seconds (JVM running for 1.9)
+2024-04-11 15:07:27.845 INFO [main]com.hsuhau.easy.service.RemoveElementTest.logStarting:55 -Starting RemoveElementTest on LAPTOP-ILSEUOVJ with PID 37880 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:07:27.847 INFO [main]com.hsuhau.easy.service.RemoveElementTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:07:28.526 INFO [main]com.hsuhau.easy.service.RemoveElementTest.logStarted:61 -Started RemoveElementTest in 1.06 seconds (JVM running for 1.949)
+2024-04-11 15:11:23.624 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStarting:55 -Starting RemoveDuplicatesFromSortedListTest on LAPTOP-ILSEUOVJ with PID 26788 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:11:23.627 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:11:24.193 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStarted:61 -Started RemoveDuplicatesFromSortedListTest in 0.965 seconds (JVM running for 1.903)
+2024-04-11 15:11:38.759 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStarting:55 -Starting RemoveDuplicatesFromSortedListTest on LAPTOP-ILSEUOVJ with PID 32540 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:11:38.761 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:11:39.311 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStarted:61 -Started RemoveDuplicatesFromSortedListTest in 0.955 seconds (JVM running for 1.908)
+2024-04-11 15:12:19.219 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStarting:55 -Starting RemoveDuplicatesFromSortedListTest on LAPTOP-ILSEUOVJ with PID 36412 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:12:19.221 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:12:19.753 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStarted:61 -Started RemoveDuplicatesFromSortedListTest in 0.967 seconds (JVM running for 1.861)
+2024-04-11 15:12:34.944 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStarting:55 -Starting RemoveDuplicatesFromSortedListTest on LAPTOP-ILSEUOVJ with PID 36652 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:12:34.946 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:12:35.540 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStarted:61 -Started RemoveDuplicatesFromSortedListTest in 0.994 seconds (JVM running for 1.991)
+2024-04-11 15:14:40.295 INFO [main]c.h.easy.service.RemoveDuplicatesFromSortedArrayTest.logStarting:55 -Starting RemoveDuplicatesFromSortedArrayTest on LAPTOP-ILSEUOVJ with PID 36564 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:14:40.297 INFO [main]c.h.easy.service.RemoveDuplicatesFromSortedArrayTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:14:40.886 INFO [main]c.h.easy.service.RemoveDuplicatesFromSortedArrayTest.logStarted:61 -Started RemoveDuplicatesFromSortedArrayTest in 0.948 seconds (JVM running for 1.905)
+2024-04-11 15:18:36.814 INFO [main]com.hsuhau.easy.service.PlusOneTest.logStarting:55 -Starting PlusOneTest on LAPTOP-ILSEUOVJ with PID 34108 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:18:36.817 INFO [main]com.hsuhau.easy.service.PlusOneTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:18:37.351 INFO [main]com.hsuhau.easy.service.PlusOneTest.logStarted:61 -Started PlusOneTest in 0.962 seconds (JVM running for 1.906)
+2024-04-11 15:18:57.068 INFO [main]com.hsuhau.easy.service.PlusOneTest.logStarting:55 -Starting PlusOneTest on LAPTOP-ILSEUOVJ with PID 14964 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:18:57.070 INFO [main]com.hsuhau.easy.service.PlusOneTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:18:57.641 INFO [main]com.hsuhau.easy.service.PlusOneTest.logStarted:61 -Started PlusOneTest in 0.958 seconds (JVM running for 1.942)
+2024-04-11 15:23:12.716 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStarting:55 -Starting MergeTwoSortedListsTest on LAPTOP-ILSEUOVJ with PID 37248 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:23:12.718 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:23:13.312 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStarted:61 -Started MergeTwoSortedListsTest in 0.987 seconds (JVM running for 1.985)
+2024-04-11 15:25:48.896 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStarting:55 -Starting MergeTwoSortedListsTest on LAPTOP-ILSEUOVJ with PID 31672 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:25:48.898 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:25:49.448 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStarted:61 -Started MergeTwoSortedListsTest in 0.935 seconds (JVM running for 1.822)
+2024-04-11 15:27:47.115 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStarting:55 -Starting MergeTwoSortedListsTest on LAPTOP-ILSEUOVJ with PID 30472 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:27:47.118 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:27:47.704 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStarted:61 -Started MergeTwoSortedListsTest in 0.992 seconds (JVM running for 1.994)
+2024-04-11 15:30:39.071 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStarting:55 -Starting MergeTwoSortedListsTest on LAPTOP-ILSEUOVJ with PID 3084 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:30:39.073 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:30:39.617 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStarted:61 -Started MergeTwoSortedListsTest in 0.946 seconds (JVM running for 1.87)
+2024-04-11 15:31:06.019 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStarting:55 -Starting MergeTwoSortedListsTest on LAPTOP-ILSEUOVJ with PID 15064 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:31:06.021 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:31:06.583 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStarted:61 -Started MergeTwoSortedListsTest in 1.006 seconds (JVM running for 1.963)
+2024-04-11 15:33:29.521 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStarting:55 -Starting MergeTwoSortedListsTest on LAPTOP-ILSEUOVJ with PID 36924 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 15:33:29.523 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 15:33:30.058 INFO [main]com.hsuhau.easy.service.MergeTwoSortedListsTest.logStarted:61 -Started MergeTwoSortedListsTest in 0.928 seconds (JVM running for 1.913)
+2024-04-11 16:17:43.733 INFO [main]com.hsuhau.easy.service.ImplementStrStrTest.logStarting:55 -Starting ImplementStrStrTest on LAPTOP-ILSEUOVJ with PID 37648 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:17:43.735 INFO [main]com.hsuhau.easy.service.ImplementStrStrTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:17:44.300 INFO [main]com.hsuhau.easy.service.ImplementStrStrTest.logStarted:61 -Started ImplementStrStrTest in 0.954 seconds (JVM running for 1.9)
+2024-04-11 16:20:46.231 INFO [main]com.hsuhau.easy.service.MergeSortedArrayTest.logStarting:55 -Starting MergeSortedArrayTest on LAPTOP-ILSEUOVJ with PID 36452 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:20:46.233 INFO [main]com.hsuhau.easy.service.MergeSortedArrayTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:20:46.852 INFO [main]com.hsuhau.easy.service.MergeSortedArrayTest.logStarted:61 -Started MergeSortedArrayTest in 1.024 seconds (JVM running for 1.903)
+2024-04-11 16:21:46.608 INFO [main]com.hsuhau.easy.service.MergeSortedArrayTest.logStarting:55 -Starting MergeSortedArrayTest on LAPTOP-ILSEUOVJ with PID 7396 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:21:46.610 INFO [main]com.hsuhau.easy.service.MergeSortedArrayTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:21:47.179 INFO [main]com.hsuhau.easy.service.MergeSortedArrayTest.logStarted:61 -Started MergeSortedArrayTest in 0.978 seconds (JVM running for 1.905)
+2024-04-11 16:23:35.994 INFO [main]com.hsuhau.easy.service.MergeSortedArrayTest.logStarting:55 -Starting MergeSortedArrayTest on LAPTOP-ILSEUOVJ with PID 33160 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:23:35.996 INFO [main]com.hsuhau.easy.service.MergeSortedArrayTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:23:36.566 INFO [main]com.hsuhau.easy.service.MergeSortedArrayTest.logStarted:61 -Started MergeSortedArrayTest in 0.958 seconds (JVM running for 2.036)
+2024-04-11 16:25:42.691 INFO [main]com.hsuhau.easy.service.MaximumSubArrayTest.logStarting:55 -Starting MaximumSubArrayTest on LAPTOP-ILSEUOVJ with PID 34036 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:25:42.693 INFO [main]com.hsuhau.easy.service.MaximumSubArrayTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:25:43.423 INFO [main]com.hsuhau.easy.service.MaximumSubArrayTest.logStarted:61 -Started MaximumSubArrayTest in 1.193 seconds (JVM running for 2.137)
+2024-04-11 16:26:20.066 INFO [main]com.hsuhau.easy.service.MaximumSubArrayTest.logStarting:55 -Starting MaximumSubArrayTest on LAPTOP-ILSEUOVJ with PID 32992 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:26:20.069 INFO [main]com.hsuhau.easy.service.MaximumSubArrayTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:26:20.670 INFO [main]com.hsuhau.easy.service.MaximumSubArrayTest.logStarted:61 -Started MaximumSubArrayTest in 0.974 seconds (JVM running for 1.998)
+2024-04-11 16:29:50.182 INFO [main]com.hsuhau.easy.service.PalindromeNumberTest.logStarting:55 -Starting PalindromeNumberTest on LAPTOP-ILSEUOVJ with PID 23840 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:29:50.184 INFO [main]com.hsuhau.easy.service.PalindromeNumberTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:29:50.838 INFO [main]com.hsuhau.easy.service.PalindromeNumberTest.logStarted:61 -Started PalindromeNumberTest in 1.057 seconds (JVM running for 2.043)
+2024-04-11 16:35:30.361 INFO [main]com.hsuhau.easy.service.LongestCommonPrefixTest.logStarting:55 -Starting LongestCommonPrefixTest on LAPTOP-ILSEUOVJ with PID 28780 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:35:30.364 INFO [main]com.hsuhau.easy.service.LongestCommonPrefixTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:35:30.916 INFO [main]com.hsuhau.easy.service.LongestCommonPrefixTest.logStarted:61 -Started LongestCommonPrefixTest in 0.971 seconds (JVM running for 1.952)
+2024-04-11 16:36:32.570 INFO [main]com.hsuhau.easy.service.LengthOfLastWordTest.logStarting:55 -Starting LengthOfLastWordTest on LAPTOP-ILSEUOVJ with PID 9376 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:36:32.572 INFO [main]com.hsuhau.easy.service.LengthOfLastWordTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:36:33.167 INFO [main]com.hsuhau.easy.service.LengthOfLastWordTest.logStarted:61 -Started LengthOfLastWordTest in 1.159 seconds (JVM running for 2.135)
+2024-04-11 16:37:43.261 INFO [main]com.hsuhau.easy.service.LengthOfLastWordTest.logStarting:55 -Starting LengthOfLastWordTest on LAPTOP-ILSEUOVJ with PID 34300 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:37:43.263 INFO [main]com.hsuhau.easy.service.LengthOfLastWordTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:37:43.809 INFO [main]com.hsuhau.easy.service.LengthOfLastWordTest.logStarted:61 -Started LengthOfLastWordTest in 0.944 seconds (JVM running for 1.94)
+2024-04-11 16:38:51.165 INFO [main]com.hsuhau.easy.service.FactorialTrailingZeroesTest.logStarting:55 -Starting FactorialTrailingZeroesTest on LAPTOP-ILSEUOVJ with PID 31316 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:38:51.167 INFO [main]com.hsuhau.easy.service.FactorialTrailingZeroesTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:38:51.707 INFO [main]com.hsuhau.easy.service.FactorialTrailingZeroesTest.logStarted:61 -Started FactorialTrailingZeroesTest in 0.957 seconds (JVM running for 2.0)
+2024-04-11 16:39:07.442 INFO [main]com.hsuhau.easy.service.FactorialTrailingZeroesTest.logStarting:55 -Starting FactorialTrailingZeroesTest on LAPTOP-ILSEUOVJ with PID 29656 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:39:07.444 INFO [main]com.hsuhau.easy.service.FactorialTrailingZeroesTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:39:08.034 INFO [main]com.hsuhau.easy.service.FactorialTrailingZeroesTest.logStarted:61 -Started FactorialTrailingZeroesTest in 0.999 seconds (JVM running for 1.994)
+2024-04-11 16:39:27.077 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStarting:55 -Starting RemoveDuplicatesFromSortedListTest on LAPTOP-ILSEUOVJ with PID 37704 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:39:27.079 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:39:27.660 INFO [main]c.hsuhau.easy.service.RemoveDuplicatesFromSortedListTest.logStarted:61 -Started RemoveDuplicatesFromSortedListTest in 1.024 seconds (JVM running for 2.01)
+2024-04-11 16:40:47.452 INFO [main]com.hsuhau.easy.service.ExcelSheetColumnNumberTest.logStarting:55 -Starting ExcelSheetColumnNumberTest on LAPTOP-ILSEUOVJ with PID 36940 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:40:47.454 INFO [main]com.hsuhau.easy.service.ExcelSheetColumnNumberTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:40:48.034 INFO [main]com.hsuhau.easy.service.ExcelSheetColumnNumberTest.logStarted:61 -Started ExcelSheetColumnNumberTest in 0.978 seconds (JVM running for 2.004)
+2024-04-11 16:43:32.474 INFO [main]com.hsuhau.easy.service.CountBitsTest.logStarting:55 -Starting CountBitsTest on LAPTOP-ILSEUOVJ with PID 36928 (started by hsuhau in D:\GitHub\hsuhau\leet-code\leet-code-easy)
+2024-04-11 16:43:32.476 INFO [main]com.hsuhau.easy.service.CountBitsTest.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2024-04-11 16:43:33.076 INFO [main]com.hsuhau.easy.service.CountBitsTest.logStarted:61 -Started CountBitsTest in 1.021 seconds (JVM running for 2.046)
