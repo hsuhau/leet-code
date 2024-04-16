@@ -51,27 +51,28 @@ import org.springframework.stereotype.Service;
 @Service
 public class ValidateBinarySearchTree {
 
-    public static void main(String[] args) {
-//        TreeNode treeNode = buildTree(new Integer[]{32, 26, 47, 19, null, null, 56, null, 27});
-        TreeNode treeNode = buildTree(new Integer[]{120, 70, 140, 50, 100, 130, 160, 20, 55, 75, 110, 119, 135, 150, 200});
-        boolean validBST = isValidBST(treeNode);
-        System.out.println("validBST = " + validBST);
+    public static boolean isValidBST(TreeNode root) {
+        int root_val = root.val;
+        return isValid(root, root_val, root_val);
     }
 
-    public static boolean isValidBST_wrong(TreeNode root) {
-        System.out.println("root = " + root.val);
-        int min = root.val;
-        int max = root.val;
-        TreeNode left = root.left;
+    public static boolean isValid(TreeNode node, int max, int min) {
+        if (node == null) {
+            return true;
+        }
+        System.out.println("root = " + node.val);
+        TreeNode left = node.left;
 //        todo 计算出每条线最大
 
 //        todo 计算出每条线最小
 
         if (left != null) {
             System.out.println("left = " + left.val);
-            if (left.val >= root.val) {
+            if (left.val >= node.val) {
                 return false;
             }
+
+            // 左节点要保证小于父节点，但如果父节点中属于右节点，则需要保证大于父节点的父节点，还要小于父节点的父节点的父节点 wrong?
 
             if (!isValidBST(left)) {
                 return false;
@@ -79,74 +80,20 @@ public class ValidateBinarySearchTree {
 
         }
 
-        TreeNode right = root.right;
+        TreeNode right = node.right;
         if (right != null) {
             System.out.println("right = " + right.val);
-            if (right.val <= root.val) {
+            if (right.val <= node.val) {
                 return false;
             }
+            // 右节点要保证大于父节点，但如果父节点中属于左节点，则需要保证小于父节点的父节点，还要大于父节点的父节点的父节点 wrong?
+
 
             if (!isValidBST(right)) {
                 return false;
             }
         }
 
-        return true;
-    }
-
-    private static TreeNode buildTree(Integer[] array) {
-        if (array.length == 0) return null;
-        TreeNode root = new TreeNode(array[0]);
-        java.util.Queue<TreeNode> queue = new java.util.LinkedList<>();
-        queue.offer(root);
-        int i = 1;
-        while (!queue.isEmpty() && i < array.length) {
-            TreeNode node = queue.poll();
-            if (array[i] != null) {
-                node.left = new TreeNode(array[i]);
-                queue.offer(node.left);
-            }
-            i++;
-            if (i < array.length && array[i] != null) {
-                node.right = new TreeNode(array[i]);
-                queue.offer(node.right);
-            }
-            i++;
-        }
-        return root;
-    }
-
-    //   inspired by geeks for geeks
-    static int maxValue(TreeNode node) {
-        if (node == null) {
-            return Integer.MIN_VALUE;
-        }
-
-        int val = node.val;
-        int leftMax = node.left.val;
-        int rightMax = node.right.val;
-
-        return Math.max(val, Math.max(leftMax, rightMax));
-    }
-
-    static int minValue(TreeNode node) {
-        if (node == null) {
-            return Integer.MAX_VALUE;
-        }
-
-        int val = node.val;
-        int leftMin = node.left.val;
-        int rightMin = node.right.val;
-
-        return Math.min(val, Math.min(leftMin, rightMin));
-    }
-
-    public static boolean isValidBST(TreeNode root) {
-        return true;
-
-    }
-
-    public boolean isValid(TreeNode node, int max, int min) {
         return isValid(node.left, max, min) && isValid(node.right, max, min);
         // 右节点要保证大于父节点，但如果父节点中属于左节点，则需要保证小于父节点的父节点，还要大于父节点的父节点的父节点 wrong?
 

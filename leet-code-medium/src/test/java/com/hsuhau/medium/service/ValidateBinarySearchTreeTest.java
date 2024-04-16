@@ -33,31 +33,10 @@ class ValidateBinarySearchTreeTest {
     @DisplayName("98.验证二叉搜索树")
     @ParameterizedTest
     @MethodSource("provideTestCases")
-    void isValidBST(Integer[] bstArray, boolean expectedResult) {
+    void testIsValidBST(Integer[] bstArray, boolean expectedResult) {
         TreeNode bst = buildTree(bstArray);
 
-        Assertions.assertEquals(validateBinarySearchTree.isValidBST(bst), expectedResult);
+        Assertions.assertEquals(expectedResult, validateBinarySearchTree.isValidBST(bst));
     }
 
-    private TreeNode buildTree(Integer[] array) {
-        if (array.length == 0) return null;
-        TreeNode root = new TreeNode(array[0]);
-        java.util.Queue<TreeNode> queue = new java.util.LinkedList<>();
-        queue.offer(root);
-        int i = 1;
-        while (!queue.isEmpty() && i < array.length) {
-            TreeNode node = queue.poll();
-            if (array[i] != null) {
-                node.left = new TreeNode(array[i]);
-                queue.offer(node.left);
-            }
-            i++;
-            if (i < array.length && array[i] != null) {
-                node.right = new TreeNode(array[i]);
-                queue.offer(node.right);
-            }
-            i++;
-        }
-        return root;
-    }
 }
