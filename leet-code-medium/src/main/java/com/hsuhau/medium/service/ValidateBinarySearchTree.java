@@ -4,6 +4,7 @@ import com.hsuhau.common.model.TreeNode;
 import org.springframework.stereotype.Service;
 
 /**
+ * fixme
  * 98. 验证二叉搜索树
  * 中等
  * 相关标签
@@ -52,51 +53,19 @@ import org.springframework.stereotype.Service;
 public class ValidateBinarySearchTree {
 
     public static boolean isValidBST(TreeNode root) {
-        int root_val = root.val;
-        return isValid(root, root_val, root_val);
+        return isValid(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
-    public static boolean isValid(TreeNode node, int max, int min) {
+    public static boolean isValid(TreeNode node, long min, long max) {
         if (node == null) {
             return true;
         }
-        System.out.println("root = " + node.val);
-        TreeNode left = node.left;
-//        todo 计算出每条线最大
 
-//        todo 计算出每条线最小
-
-        if (left != null) {
-            System.out.println("left = " + left.val);
-            if (left.val >= node.val) {
-                return false;
-            }
-
-            // 左节点要保证小于父节点，但如果父节点中属于右节点，则需要保证大于父节点的父节点，还要小于父节点的父节点的父节点 wrong?
-
-            if (!isValidBST(left)) {
-                return false;
-            }
-
+        if (node.val <= min || node.val >= max) {
+            return false;
         }
 
-        TreeNode right = node.right;
-        if (right != null) {
-            System.out.println("right = " + right.val);
-            if (right.val <= node.val) {
-                return false;
-            }
-            // 右节点要保证大于父节点，但如果父节点中属于左节点，则需要保证小于父节点的父节点，还要大于父节点的父节点的父节点 wrong?
-
-
-            if (!isValidBST(right)) {
-                return false;
-            }
-        }
-
-        return isValid(node.left, max, min) && isValid(node.right, max, min);
-        // 右节点要保证大于父节点，但如果父节点中属于左节点，则需要保证小于父节点的父节点，还要大于父节点的父节点的父节点 wrong?
-
-        // 左节点要保证小于父节点，但如果父节点中属于右节点，则需要保证大于父节点的父节点，还要小于父节点的父节点的父节点 wrong
+        return isValid(node.left, min, node.val) &&
+                isValid(node.right, node.val, max);
     }
 }

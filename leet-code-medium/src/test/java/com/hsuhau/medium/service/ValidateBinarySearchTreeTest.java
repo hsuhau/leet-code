@@ -14,6 +14,8 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.util.stream.Stream;
 
+import static com.hsuhau.common.model.TreeNode.buildTree;
+
 @SpringBootTest(classes = MediumApplication.class)
 @ExtendWith(SpringExtension.class)
 @DisplayName("98.验证二叉搜索树-测试用例")
@@ -24,6 +26,8 @@ class ValidateBinarySearchTreeTest {
 
     private static Stream<Arguments> provideTestCases() {
         return Stream.of(
+                Arguments.of((Object) new Integer[]{2,2,2}, false),
+                Arguments.of((Object) new Integer[]{2147483647}, true),
                 Arguments.of((Object) new Integer[]{5, 4, 6, null, null, 3, 7}, true),
                 Arguments.of((Object) new Integer[]{32, 26, 47, 19, null, null, 56, null, 27}, true),
                 Arguments.of((Object) new Integer[]{120, 70, 140, 50, 100, 130, 160, 20, 55, 75, 110, 119, 135, 150, 200}, false)
